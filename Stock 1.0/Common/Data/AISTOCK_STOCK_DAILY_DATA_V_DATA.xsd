@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AISTOCK_STOCK_DAILY_DATA_V_DATA" targetNamespace="http://tempuri.org/AISTOCK_STOCK_DAILY_DATA_V_DATA.xsd" xmlns:mstns="http://tempuri.org/AISTOCK_STOCK_DAILY_DATA_V_DATA.xsd" xmlns="http://tempuri.org/AISTOCK_STOCK_DAILY_DATA_V_DATA.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="AISTOCKConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="AISTOCKConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.AISRS.Common.Properties.Settings.GlobalReference.Default.AISTOCKConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AISTOCK_STOCK_DAILY_DATA_VTableAdapter" GeneratorDataComponentClassName="AISTOCK_STOCK_DAILY_DATA_VTableAdapter" Name="AISTOCK_STOCK_DAILY_DATA_V" UserDataComponentName="AISTOCK_STOCK_DAILY_DATA_VTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="AISTOCKConnectionString (Settings)" DbObjectName="AISTOCK.dbo.AISTOCK_STOCK_DAILY_DATA_V" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STOCK_CODE, STOCK_NAME, STOCK_ADDR, FIELD_MAIN, FIELD, PROVINCE, TOTAL_STOCK, STOCKER, REVENUE, PROFIT, PROFIT_PERCENT, STOCK_DAY, TODAY_BEGIN, YESTERDAY_END, TODAY_END, MAX_PRICE, MIN_PRICE, QUANTITY, TOTAL_MONEY, INCREASE_PERCENT, CHART FROM dbo.AISTOCK_STOCK_DAILY_DATA_V</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STOCK_CODE" DataSetColumn="STOCK_CODE" />
+              <Mapping SourceColumn="STOCK_NAME" DataSetColumn="STOCK_NAME" />
+              <Mapping SourceColumn="STOCK_ADDR" DataSetColumn="STOCK_ADDR" />
+              <Mapping SourceColumn="FIELD_MAIN" DataSetColumn="FIELD_MAIN" />
+              <Mapping SourceColumn="FIELD" DataSetColumn="FIELD" />
+              <Mapping SourceColumn="PROVINCE" DataSetColumn="PROVINCE" />
+              <Mapping SourceColumn="TOTAL_STOCK" DataSetColumn="TOTAL_STOCK" />
+              <Mapping SourceColumn="STOCKER" DataSetColumn="STOCKER" />
+              <Mapping SourceColumn="REVENUE" DataSetColumn="REVENUE" />
+              <Mapping SourceColumn="PROFIT" DataSetColumn="PROFIT" />
+              <Mapping SourceColumn="PROFIT_PERCENT" DataSetColumn="PROFIT_PERCENT" />
+              <Mapping SourceColumn="STOCK_DAY" DataSetColumn="STOCK_DAY" />
+              <Mapping SourceColumn="TODAY_BEGIN" DataSetColumn="TODAY_BEGIN" />
+              <Mapping SourceColumn="YESTERDAY_END" DataSetColumn="YESTERDAY_END" />
+              <Mapping SourceColumn="TODAY_END" DataSetColumn="TODAY_END" />
+              <Mapping SourceColumn="MAX_PRICE" DataSetColumn="MAX_PRICE" />
+              <Mapping SourceColumn="MIN_PRICE" DataSetColumn="MIN_PRICE" />
+              <Mapping SourceColumn="QUANTITY" DataSetColumn="QUANTITY" />
+              <Mapping SourceColumn="TOTAL_MONEY" DataSetColumn="TOTAL_MONEY" />
+              <Mapping SourceColumn="INCREASE_PERCENT" DataSetColumn="INCREASE_PERCENT" />
+              <Mapping SourceColumn="CHART" DataSetColumn="CHART" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AISTOCK_STOCK_DAILY_DATA_V_DATA" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="AISTOCK_STOCK_DAILY_DATA_V_DATA" msprop:Generator_UserDSName="AISTOCK_STOCK_DAILY_DATA_V_DATA">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AISTOCK_STOCK_DAILY_DATA_V" msprop:Generator_TableClassName="AISTOCK_STOCK_DAILY_DATA_VDataTable" msprop:Generator_TableVarName="tableAISTOCK_STOCK_DAILY_DATA_V" msprop:Generator_TablePropName="AISTOCK_STOCK_DAILY_DATA_V" msprop:Generator_RowDeletingName="AISTOCK_STOCK_DAILY_DATA_VRowDeleting" msprop:Generator_UserTableName="AISTOCK_STOCK_DAILY_DATA_V" msprop:Generator_RowChangingName="AISTOCK_STOCK_DAILY_DATA_VRowChanging" msprop:Generator_RowEvHandlerName="AISTOCK_STOCK_DAILY_DATA_VRowChangeEventHandler" msprop:Generator_RowDeletedName="AISTOCK_STOCK_DAILY_DATA_VRowDeleted" msprop:Generator_RowEvArgName="AISTOCK_STOCK_DAILY_DATA_VRowChangeEvent" msprop:Generator_RowChangedName="AISTOCK_STOCK_DAILY_DATA_VRowChanged" msprop:Generator_RowClassName="AISTOCK_STOCK_DAILY_DATA_VRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOCK_CODE" msprop:Generator_ColumnVarNameInTable="columnSTOCK_CODE" msprop:Generator_ColumnPropNameInRow="STOCK_CODE" msprop:Generator_ColumnPropNameInTable="STOCK_CODEColumn" msprop:Generator_UserColumnName="STOCK_CODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOCK_NAME" msprop:Generator_ColumnVarNameInTable="columnSTOCK_NAME" msprop:Generator_ColumnPropNameInRow="STOCK_NAME" msprop:Generator_ColumnPropNameInTable="STOCK_NAMEColumn" msprop:Generator_UserColumnName="STOCK_NAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOCK_ADDR" msprop:Generator_ColumnVarNameInTable="columnSTOCK_ADDR" msprop:Generator_ColumnPropNameInRow="STOCK_ADDR" msprop:Generator_ColumnPropNameInTable="STOCK_ADDRColumn" msprop:Generator_UserColumnName="STOCK_ADDR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FIELD_MAIN" msprop:Generator_ColumnVarNameInTable="columnFIELD_MAIN" msprop:Generator_ColumnPropNameInRow="FIELD_MAIN" msprop:Generator_ColumnPropNameInTable="FIELD_MAINColumn" msprop:Generator_UserColumnName="FIELD_MAIN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FIELD" msprop:Generator_ColumnVarNameInTable="columnFIELD" msprop:Generator_ColumnPropNameInRow="FIELD" msprop:Generator_ColumnPropNameInTable="FIELDColumn" msprop:Generator_UserColumnName="FIELD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PROVINCE" msprop:Generator_ColumnVarNameInTable="columnPROVINCE" msprop:Generator_ColumnPropNameInRow="PROVINCE" msprop:Generator_ColumnPropNameInTable="PROVINCEColumn" msprop:Generator_UserColumnName="PROVINCE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TOTAL_STOCK" msprop:Generator_ColumnVarNameInTable="columnTOTAL_STOCK" msprop:Generator_ColumnPropNameInRow="TOTAL_STOCK" msprop:Generator_ColumnPropNameInTable="TOTAL_STOCKColumn" msprop:Generator_UserColumnName="TOTAL_STOCK" type="xs:decimal" minOccurs="0" />
+              <xs:element name="STOCKER" msprop:Generator_ColumnVarNameInTable="columnSTOCKER" msprop:Generator_ColumnPropNameInRow="STOCKER" msprop:Generator_ColumnPropNameInTable="STOCKERColumn" msprop:Generator_UserColumnName="STOCKER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="REVENUE" msprop:Generator_ColumnVarNameInTable="columnREVENUE" msprop:Generator_ColumnPropNameInRow="REVENUE" msprop:Generator_ColumnPropNameInTable="REVENUEColumn" msprop:Generator_UserColumnName="REVENUE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PROFIT" msprop:Generator_ColumnVarNameInTable="columnPROFIT" msprop:Generator_ColumnPropNameInRow="PROFIT" msprop:Generator_ColumnPropNameInTable="PROFITColumn" msprop:Generator_UserColumnName="PROFIT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PROFIT_PERCENT" msprop:Generator_ColumnVarNameInTable="columnPROFIT_PERCENT" msprop:Generator_ColumnPropNameInRow="PROFIT_PERCENT" msprop:Generator_ColumnPropNameInTable="PROFIT_PERCENTColumn" msprop:Generator_UserColumnName="PROFIT_PERCENT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="STOCK_DAY" msprop:Generator_ColumnVarNameInTable="columnSTOCK_DAY" msprop:Generator_ColumnPropNameInRow="STOCK_DAY" msprop:Generator_ColumnPropNameInTable="STOCK_DAYColumn" msprop:Generator_UserColumnName="STOCK_DAY" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TODAY_BEGIN" msprop:Generator_ColumnVarNameInTable="columnTODAY_BEGIN" msprop:Generator_ColumnPropNameInRow="TODAY_BEGIN" msprop:Generator_ColumnPropNameInTable="TODAY_BEGINColumn" msprop:Generator_UserColumnName="TODAY_BEGIN" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YESTERDAY_END" msprop:Generator_ColumnVarNameInTable="columnYESTERDAY_END" msprop:Generator_ColumnPropNameInRow="YESTERDAY_END" msprop:Generator_ColumnPropNameInTable="YESTERDAY_ENDColumn" msprop:Generator_UserColumnName="YESTERDAY_END" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TODAY_END" msprop:Generator_ColumnVarNameInTable="columnTODAY_END" msprop:Generator_ColumnPropNameInRow="TODAY_END" msprop:Generator_ColumnPropNameInTable="TODAY_ENDColumn" msprop:Generator_UserColumnName="TODAY_END" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MAX_PRICE" msprop:Generator_ColumnVarNameInTable="columnMAX_PRICE" msprop:Generator_ColumnPropNameInRow="MAX_PRICE" msprop:Generator_ColumnPropNameInTable="MAX_PRICEColumn" msprop:Generator_UserColumnName="MAX_PRICE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MIN_PRICE" msprop:Generator_ColumnVarNameInTable="columnMIN_PRICE" msprop:Generator_ColumnPropNameInRow="MIN_PRICE" msprop:Generator_ColumnPropNameInTable="MIN_PRICEColumn" msprop:Generator_UserColumnName="MIN_PRICE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="QUANTITY" msprop:Generator_ColumnVarNameInTable="columnQUANTITY" msprop:Generator_ColumnPropNameInRow="QUANTITY" msprop:Generator_ColumnPropNameInTable="QUANTITYColumn" msprop:Generator_UserColumnName="QUANTITY" type="xs:int" minOccurs="0" />
+              <xs:element name="TOTAL_MONEY" msprop:Generator_ColumnVarNameInTable="columnTOTAL_MONEY" msprop:Generator_ColumnPropNameInRow="TOTAL_MONEY" msprop:Generator_ColumnPropNameInTable="TOTAL_MONEYColumn" msprop:Generator_UserColumnName="TOTAL_MONEY" type="xs:decimal" minOccurs="0" />
+              <xs:element name="INCREASE_PERCENT" msprop:Generator_ColumnVarNameInTable="columnINCREASE_PERCENT" msprop:Generator_ColumnPropNameInRow="INCREASE_PERCENT" msprop:Generator_ColumnPropNameInTable="INCREASE_PERCENTColumn" msprop:Generator_UserColumnName="INCREASE_PERCENT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CHART" msprop:Generator_ColumnVarNameInTable="columnCHART" msprop:Generator_ColumnPropNameInRow="CHART" msprop:Generator_ColumnPropNameInTable="CHARTColumn" msprop:Generator_UserColumnName="CHART" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

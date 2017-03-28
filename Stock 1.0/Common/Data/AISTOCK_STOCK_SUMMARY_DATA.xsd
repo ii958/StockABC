@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AISTOCK_STOCK_SUMMARY_DATA" targetNamespace="http://tempuri.org/AISTOCK_STOCK_SUMMARY_DATA.xsd" xmlns:mstns="http://tempuri.org/AISTOCK_STOCK_SUMMARY_DATA.xsd" xmlns="http://tempuri.org/AISTOCK_STOCK_SUMMARY_DATA.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AISTOCK_STOCK_SUMMARY_DATA" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="AISTOCK_STOCK_SUMMARY_DATA" msprop:Generator_UserDSName="AISTOCK_STOCK_SUMMARY_DATA">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AISTOCK_STOCK_SUMMARY" msprop:Generator_TableClassName="AISTOCK_STOCK_SUMMARYDataTable" msprop:Generator_TableVarName="tableAISTOCK_STOCK_SUMMARY" msprop:Generator_TablePropName="AISTOCK_STOCK_SUMMARY" msprop:Generator_RowDeletingName="AISTOCK_STOCK_SUMMARYRowDeleting" msprop:Generator_RowChangingName="AISTOCK_STOCK_SUMMARYRowChanging" msprop:Generator_RowEvHandlerName="AISTOCK_STOCK_SUMMARYRowChangeEventHandler" msprop:Generator_RowDeletedName="AISTOCK_STOCK_SUMMARYRowDeleted" msprop:Generator_UserTableName="AISTOCK_STOCK_SUMMARY" msprop:Generator_RowChangedName="AISTOCK_STOCK_SUMMARYRowChanged" msprop:Generator_RowEvArgName="AISTOCK_STOCK_SUMMARYRowChangeEvent" msprop:Generator_RowClassName="AISTOCK_STOCK_SUMMARYRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOCK_ID" msprop:Generator_ColumnVarNameInTable="columnSTOCK_ID" msprop:Generator_ColumnPropNameInRow="STOCK_ID" msprop:Generator_ColumnPropNameInTable="STOCK_IDColumn" msprop:Generator_UserColumnName="STOCK_ID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOCK_DAY" msprop:Generator_ColumnVarNameInTable="columnSTOCK_DAY" msprop:Generator_ColumnPropNameInRow="STOCK_DAY" msprop:Generator_ColumnPropNameInTable="STOCK_DAYColumn" msprop:Generator_UserColumnName="STOCK_DAY" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOCK_HL" msprop:Generator_ColumnVarNameInTable="columnSTOCK_HL" msprop:Generator_ColumnPropNameInRow="STOCK_HL" msprop:Generator_ColumnPropNameInTable="STOCK_HLColumn" msprop:Generator_UserColumnName="STOCK_HL" type="xs:int" minOccurs="0" />
+              <xs:element name="STOCK_LH" msprop:Generator_ColumnVarNameInTable="columnSTOCK_LH" msprop:Generator_ColumnPropNameInRow="STOCK_LH" msprop:Generator_ColumnPropNameInTable="STOCK_LHColumn" msprop:Generator_UserColumnName="STOCK_LH" type="xs:int" minOccurs="0" />
+              <xs:element name="RATIO" msprop:Generator_ColumnVarNameInTable="columnRATIO" msprop:Generator_ColumnPropNameInRow="RATIO" msprop:Generator_ColumnPropNameInTable="RATIOColumn" msprop:Generator_UserColumnName="RATIO" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

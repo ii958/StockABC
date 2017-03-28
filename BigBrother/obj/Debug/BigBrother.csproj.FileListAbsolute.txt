@@ -1,0 +1,17 @@
+D:\workspace\StockABC\BigBrother\bin\Debug\BigBrother.exe.config
+D:\workspace\StockABC\BigBrother\bin\Debug\BigBrother.exe
+D:\workspace\StockABC\BigBrother\bin\Debug\BigBrother.pdb
+D:\workspace\StockABC\BigBrother\obj\Debug\BigBrother.csprojResolveAssemblyReference.cache
+D:\workspace\StockABC\BigBrother\obj\Debug\BigBrother.ProjectInstaller.resources
+D:\workspace\StockABC\BigBrother\obj\Debug\BigBrother.csproj.GenerateResource.Cache
+D:\workspace\StockABC\BigBrother\obj\Debug\BigBrother.exe
+D:\workspace\StockABC\BigBrother\obj\Debug\BigBrother.pdb
+D:\workspace\StockABC\BigBrother\bin\Debug\Common.dll
+D:\workspace\StockABC\BigBrother\bin\Debug\DataProtection.dll
+D:\workspace\StockABC\BigBrother\bin\Debug\Common.pdb
+D:\workspace\StockABC\BigBrother\bin\Debug\BusinessFacade.dll
+D:\workspace\StockABC\BigBrother\bin\Debug\BusinessRules.dll
+D:\workspace\StockABC\BigBrother\bin\Debug\DataAccess.dll
+D:\workspace\StockABC\BigBrother\bin\Debug\BusinessFacade.pdb
+D:\workspace\StockABC\BigBrother\bin\Debug\BusinessRules.pdb
+D:\workspace\StockABC\BigBrother\bin\Debug\DataAccess.pdb

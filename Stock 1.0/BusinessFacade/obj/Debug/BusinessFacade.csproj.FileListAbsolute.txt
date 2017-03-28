@@ -1,0 +1,84 @@
+D:\project\AISRS 1.0\AISRS 1.0\BusinessFacade\obj\Debug\ResolveAssemblyReference.cache
+D:\project\AISRS 1.0\AISRS 1.0\BusinessFacade\bin\Debug\BusinessFacade.dll
+D:\project\AISRS 1.0\AISRS 1.0\BusinessFacade\bin\Debug\BusinessFacade.pdb
+D:\project\AISRS 1.0\AISRS 1.0\BusinessFacade\bin\Debug\BusinessRules.dll
+D:\project\AISRS 1.0\AISRS 1.0\BusinessFacade\bin\Debug\Common.dll
+D:\project\AISRS 1.0\AISRS 1.0\BusinessFacade\bin\Debug\DataAccess.dll
+D:\project\AISRS 1.0\AISRS 1.0\BusinessFacade\bin\Debug\DataProtection.dll
+D:\project\AISRS 1.0\AISRS 1.0\BusinessFacade\bin\Debug\BusinessRules.pdb
+D:\project\AISRS 1.0\AISRS 1.0\BusinessFacade\bin\Debug\Common.pdb
+D:\project\AISRS 1.0\AISRS 1.0\BusinessFacade\bin\Debug\DataAccess.pdb
+D:\project\AISRS 1.0\AISRS 1.0\BusinessFacade\obj\Debug\BusinessFacade.dll
+D:\project\AISRS 1.0\AISRS 1.0\BusinessFacade\obj\Debug\BusinessFacade.pdb
+D:\work\BlueMatrix模板项目\AISRS 1.0\AISRS 1.0\BusinessFacade\bin\Debug\BusinessFacade.dll
+D:\work\BlueMatrix模板项目\AISRS 1.0\AISRS 1.0\BusinessFacade\bin\Debug\BusinessFacade.pdb
+D:\work\BlueMatrix模板项目\AISRS 1.0\AISRS 1.0\BusinessFacade\bin\Debug\BusinessRules.dll
+D:\work\BlueMatrix模板项目\AISRS 1.0\AISRS 1.0\BusinessFacade\bin\Debug\Common.dll
+D:\work\BlueMatrix模板项目\AISRS 1.0\AISRS 1.0\BusinessFacade\bin\Debug\DataAccess.dll
+D:\work\BlueMatrix模板项目\AISRS 1.0\AISRS 1.0\BusinessFacade\bin\Debug\DataProtection.dll
+D:\work\BlueMatrix模板项目\AISRS 1.0\AISRS 1.0\BusinessFacade\bin\Debug\BusinessRules.pdb
+D:\work\BlueMatrix模板项目\AISRS 1.0\AISRS 1.0\BusinessFacade\bin\Debug\Common.pdb
+D:\work\BlueMatrix模板项目\AISRS 1.0\AISRS 1.0\BusinessFacade\bin\Debug\DataAccess.pdb
+D:\work\BlueMatrix模板项目\AISRS 1.0\AISRS 1.0\BusinessFacade\obj\Debug\ResolveAssemblyReference.cache
+D:\work\BlueMatrix模板项目\AISRS 1.0\AISRS 1.0\BusinessFacade\obj\Debug\BusinessFacade.dll
+D:\work\BlueMatrix模板项目\AISRS 1.0\AISRS 1.0\BusinessFacade\obj\Debug\BusinessFacade.pdb
+D:\work\AIStock 1.0\AISRS 1.0\BusinessFacade\bin\Debug\BusinessFacade.dll
+D:\work\AIStock 1.0\AISRS 1.0\BusinessFacade\bin\Debug\BusinessFacade.pdb
+D:\work\AIStock 1.0\AISRS 1.0\BusinessFacade\bin\Debug\BusinessRules.dll
+D:\work\AIStock 1.0\AISRS 1.0\BusinessFacade\bin\Debug\Common.dll
+D:\work\AIStock 1.0\AISRS 1.0\BusinessFacade\bin\Debug\DataAccess.dll
+D:\work\AIStock 1.0\AISRS 1.0\BusinessFacade\bin\Debug\DataProtection.dll
+D:\work\AIStock 1.0\AISRS 1.0\BusinessFacade\bin\Debug\BusinessRules.pdb
+D:\work\AIStock 1.0\AISRS 1.0\BusinessFacade\bin\Debug\Common.pdb
+D:\work\AIStock 1.0\AISRS 1.0\BusinessFacade\bin\Debug\DataAccess.pdb
+D:\work\AIStock 1.0\AISRS 1.0\BusinessFacade\obj\Debug\ResolveAssemblyReference.cache
+D:\work\AIStock 1.0\AISRS 1.0\BusinessFacade\obj\Debug\BusinessFacade.dll
+D:\work\AIStock 1.0\AISRS 1.0\BusinessFacade\obj\Debug\BusinessFacade.pdb
+C:\AIStock 1.0\AISRS 1.0\BusinessFacade\bin\Debug\BusinessFacade.dll
+C:\AIStock 1.0\AISRS 1.0\BusinessFacade\bin\Debug\BusinessFacade.pdb
+C:\AIStock 1.0\AISRS 1.0\BusinessFacade\bin\Debug\BusinessRules.dll
+C:\AIStock 1.0\AISRS 1.0\BusinessFacade\bin\Debug\Common.dll
+C:\AIStock 1.0\AISRS 1.0\BusinessFacade\bin\Debug\DataAccess.dll
+C:\AIStock 1.0\AISRS 1.0\BusinessFacade\bin\Debug\DataProtection.dll
+C:\AIStock 1.0\AISRS 1.0\BusinessFacade\bin\Debug\BusinessRules.pdb
+C:\AIStock 1.0\AISRS 1.0\BusinessFacade\bin\Debug\Common.pdb
+C:\AIStock 1.0\AISRS 1.0\BusinessFacade\bin\Debug\DataAccess.pdb
+C:\AIStock 1.0\AISRS 1.0\BusinessFacade\obj\Debug\ResolveAssemblyReference.cache
+C:\AIStock 1.0\AISRS 1.0\BusinessFacade\obj\Debug\BusinessFacade.dll
+C:\AIStock 1.0\AISRS 1.0\BusinessFacade\obj\Debug\BusinessFacade.pdb
+D:\workspace\StockABC\Stock 1.0\BusinessFacade\bin\Debug\BusinessFacade.dll
+D:\workspace\StockABC\Stock 1.0\BusinessFacade\bin\Debug\BusinessFacade.pdb
+D:\workspace\StockABC\Stock 1.0\BusinessFacade\bin\Debug\BusinessRules.dll
+D:\workspace\StockABC\Stock 1.0\BusinessFacade\bin\Debug\Common.dll
+D:\workspace\StockABC\Stock 1.0\BusinessFacade\bin\Debug\DataAccess.dll
+D:\workspace\StockABC\Stock 1.0\BusinessFacade\bin\Debug\DataProtection.dll
+D:\workspace\StockABC\Stock 1.0\BusinessFacade\bin\Debug\BusinessRules.pdb
+D:\workspace\StockABC\Stock 1.0\BusinessFacade\bin\Debug\Common.pdb
+D:\workspace\StockABC\Stock 1.0\BusinessFacade\bin\Debug\DataAccess.pdb
+D:\workspace\StockABC\Stock 1.0\BusinessFacade\obj\Debug\BusinessFacade.csprojResolveAssemblyReference.cache
+D:\workspace\StockABC\Stock 1.0\BusinessFacade\obj\Debug\BusinessFacade.dll
+D:\workspace\StockABC\Stock 1.0\BusinessFacade\obj\Debug\BusinessFacade.pdb
+C:\Users\陈呈\OneDrive\bak_STOCKABC\StockABC\Stock 1.0\BusinessFacade\bin\Debug\BusinessFacade.dll
+C:\Users\陈呈\OneDrive\bak_STOCKABC\StockABC\Stock 1.0\BusinessFacade\bin\Debug\BusinessFacade.pdb
+C:\Users\陈呈\OneDrive\bak_STOCKABC\StockABC\Stock 1.0\BusinessFacade\bin\Debug\BusinessRules.dll
+C:\Users\陈呈\OneDrive\bak_STOCKABC\StockABC\Stock 1.0\BusinessFacade\bin\Debug\Common.dll
+C:\Users\陈呈\OneDrive\bak_STOCKABC\StockABC\Stock 1.0\BusinessFacade\bin\Debug\DataAccess.dll
+C:\Users\陈呈\OneDrive\bak_STOCKABC\StockABC\Stock 1.0\BusinessFacade\bin\Debug\DataProtection.dll
+C:\Users\陈呈\OneDrive\bak_STOCKABC\StockABC\Stock 1.0\BusinessFacade\bin\Debug\BusinessRules.pdb
+C:\Users\陈呈\OneDrive\bak_STOCKABC\StockABC\Stock 1.0\BusinessFacade\bin\Debug\Common.pdb
+C:\Users\陈呈\OneDrive\bak_STOCKABC\StockABC\Stock 1.0\BusinessFacade\bin\Debug\DataAccess.pdb
+C:\Users\陈呈\OneDrive\bak_STOCKABC\StockABC\Stock 1.0\BusinessFacade\obj\Debug\BusinessFacade.csprojResolveAssemblyReference.cache
+C:\Users\陈呈\OneDrive\bak_STOCKABC\StockABC\Stock 1.0\BusinessFacade\obj\Debug\BusinessFacade.dll
+C:\Users\陈呈\OneDrive\bak_STOCKABC\StockABC\Stock 1.0\BusinessFacade\obj\Debug\BusinessFacade.pdb
+C:\dev\workspace\StockABC\Stock 1.0\BusinessFacade\bin\Debug\BusinessFacade.dll
+C:\dev\workspace\StockABC\Stock 1.0\BusinessFacade\bin\Debug\BusinessFacade.pdb
+C:\dev\workspace\StockABC\Stock 1.0\BusinessFacade\bin\Debug\BusinessRules.dll
+C:\dev\workspace\StockABC\Stock 1.0\BusinessFacade\bin\Debug\Common.dll
+C:\dev\workspace\StockABC\Stock 1.0\BusinessFacade\bin\Debug\DataAccess.dll
+C:\dev\workspace\StockABC\Stock 1.0\BusinessFacade\bin\Debug\DataProtection.dll
+C:\dev\workspace\StockABC\Stock 1.0\BusinessFacade\bin\Debug\BusinessRules.pdb
+C:\dev\workspace\StockABC\Stock 1.0\BusinessFacade\bin\Debug\Common.pdb
+C:\dev\workspace\StockABC\Stock 1.0\BusinessFacade\bin\Debug\DataAccess.pdb
+C:\dev\workspace\StockABC\Stock 1.0\BusinessFacade\obj\Debug\BusinessFacade.csprojResolveAssemblyReference.cache
+C:\dev\workspace\StockABC\Stock 1.0\BusinessFacade\obj\Debug\BusinessFacade.dll
+C:\dev\workspace\StockABC\Stock 1.0\BusinessFacade\obj\Debug\BusinessFacade.pdb

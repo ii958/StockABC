@@ -1,0 +1,665 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2AF8D350-2E6C-4F87-98AC-3446D57D9888}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>Common</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>AISRS.Common</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>http://localhost/Common/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DataProtection">
+      <HintPath>..\..\..\..\work\IIS Log日志分析\sqlldr自动导入程序\AIAID\AIAID\bin\DataProtection.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.DataAccess">
+      <HintPath>..\..\..\Oracle\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Const\DropDownListConst.cs" />
+    <Compile Include="Const\PermissionConst.cs" />
+    <Compile Include="Data\AISTOCK_CALENDAR_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_CALENDAR_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AISTOCK_FIELD_DOMAIN_VALUE_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_FIELD_DOMAIN_VALUE_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AISTOCK_STATS_PERCENT_V_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_STATS_PERCENT_V_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AISTOCK_STOCK_ADR_INDEX_V_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_STOCK_ADR_INDEX_V_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AISTOCK_STOCK_AVG_PRICE_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_STOCK_AVG_PRICE_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AISTOCK_STOCK_BASEINFO_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_STOCK_BASEINFO_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AISTOCK_STOCK_BUY_HISTORY_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_STOCK_BUY_HISTORY_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AISTOCK_STOCK_BUY_STATS_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_STOCK_BUY_STATS_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AISTOCK_STOCK_COMMAND_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_STOCK_COMMAND_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AISTOCK_STOCK_DAILY_DATA_V_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_STOCK_DAILY_DATA_V_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AISTOCK_STOCK_GUDONGRENSHU_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_STOCK_GUDONGRENSHU_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AISTOCK_STOCK_HAMMER_V_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_STOCK_HAMMER_V_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AISTOCK_STOCK_IMPORT_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_STOCK_IMPORT_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AISTOCK_STOCK_INDEX_V_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_STOCK_INDEX_V_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AISTOCK_STOCK_INFORMATION_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_STOCK_INFORMATION_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AISTOCK_STOCK_JOBFINISHED_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_STOCK_JOBFINISHED_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AISTOCK_STOCK_LOG_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_STOCK_LOG_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AISTOCK_STOCK_LOW_FIVE_V_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_STOCK_LOW_FIVE_V_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AISTOCK_STOCK_MORNING_STAR_V_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_STOCK_MORNING_STAR_V_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AISTOCK_STOCK_ShiDaLiuTongGu_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_STOCK_ShiDaLiuTongGu_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AISTOCK_STOCK_SINGLE_PIN_V_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_STOCK_SINGLE_PIN_V_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AISTOCK_STOCK_STATS_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_STOCK_STATS_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AISTOCK_STOCK_SUMMARY_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_STOCK_SUMMARY_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AISTOCK_STOCK_TODAY_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_STOCK_TODAY_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AISTOCK_STOCK_TWO_PIN_V_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_STOCK_TWO_PIN_V_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AISTOCK_STOCK_WMS_V_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_STOCK_WMS_V_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AISTOCK_STOCK_WORDS_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_STOCK_WORDS_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AISTOCK_TEST_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AISTOCK_TEST_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AppUserData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppUserData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\DataSetPackage.cs" />
+    <Compile Include="Data\DataSetPackageBase.cs" />
+    <Compile Include="Data\NameDataSetCollection.cs" />
+    <Compile Include="Entity\Stock.cs" />
+    <Compile Include="Entity\StockInfo.cs" />
+    <Compile Include="Exception\CommonException.cs" />
+    <Compile Include="Exception\DbDataException.cs" />
+    <Compile Include="Exception\DbOperationException.cs" />
+    <Compile Include="Exception\ExceptionHandler.cs" />
+    <Compile Include="Exception\PermissionException.cs" />
+    <Compile Include="Exception\ValidationException.cs" />
+    <Compile Include="Framework\Configuration.cs" />
+    <Compile Include="Framework\Log.cs" />
+    <Compile Include="Framework\PermissionAttribute.cs" />
+    <Compile Include="Framework\User.cs" />
+    <Compile Include="Function\DateTimeFunction.cs" />
+    <Compile Include="Function\EmailUtil.cs" />
+    <Compile Include="Function\JavaScriptFunction.cs" />
+    <Compile Include="Function\NumberFunction.cs" />
+    <Compile Include="Function\Security.cs" />
+    <Compile Include="Function\WebFunction.cs" />
+    <Compile Include="Multilanguage\Language.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Query\AppUserQueryCondition.cs" />
+    <Compile Include="Query\Pagination.cs" />
+    <Compile Include="Query\PercentCalculateConditon.cs" />
+    <Compile Include="Query\PercentHistoryQueryCondition.cs" />
+    <Compile Include="Query\PercentReportDiffAfterAdjustQueryCondition.cs" />
+    <Compile Include="Query\ProcessHistoryQueryCondition.cs" />
+    <Compile Include="Query\ProcessReportDiffReceiveQueryCondition.cs" />
+    <Compile Include="Query\ProcessReportStatusQueryCondition.cs" />
+    <Compile Include="Query\ProjectAppendInfoQueryCondition.cs" />
+    <Compile Include="Query\ProjectAttributeQueryCondition.cs" />
+    <Compile Include="Query\ProjectCostQueryCondition.cs" />
+    <Compile Include="Query\ProjectPitchPointQueryCondition.cs" />
+    <Compile Include="Query\QueryCondition.cs" />
+    <Compile Include="Query\SortField.cs" />
+    <Compile Include="Query\SortFieldArray.cs" />
+    <Compile Include="Query\SpecialCalProjectQueryCondition.cs" />
+    <Compile Include="Query\StockQueryCondition.cs" />
+    <None Include="app.config" />
+    <None Include="Data\AISTOCK_CALENDAR_DATA.xsc">
+      <DependentUpon>AISTOCK_CALENDAR_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_CALENDAR_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_CALENDAR_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_CALENDAR_DATA.xss">
+      <DependentUpon>AISTOCK_CALENDAR_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_FIELD_DOMAIN_VALUE_DATA.xsc">
+      <DependentUpon>AISTOCK_FIELD_DOMAIN_VALUE_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_FIELD_DOMAIN_VALUE_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_FIELD_DOMAIN_VALUE_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_FIELD_DOMAIN_VALUE_DATA.xss">
+      <DependentUpon>AISTOCK_FIELD_DOMAIN_VALUE_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STATS_PERCENT_V_DATA.xsc">
+      <DependentUpon>AISTOCK_STATS_PERCENT_V_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STATS_PERCENT_V_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_STATS_PERCENT_V_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_STATS_PERCENT_V_DATA.xss">
+      <DependentUpon>AISTOCK_STATS_PERCENT_V_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_ADR_INDEX_V_DATA.xsc">
+      <DependentUpon>AISTOCK_STOCK_ADR_INDEX_V_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_ADR_INDEX_V_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_STOCK_ADR_INDEX_V_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_ADR_INDEX_V_DATA.xss">
+      <DependentUpon>AISTOCK_STOCK_ADR_INDEX_V_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_AVG_PRICE_DATA.xsc">
+      <DependentUpon>AISTOCK_STOCK_AVG_PRICE_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_AVG_PRICE_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_STOCK_AVG_PRICE_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_AVG_PRICE_DATA.xss">
+      <DependentUpon>AISTOCK_STOCK_AVG_PRICE_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_BASEINFO_DATA.xsc">
+      <DependentUpon>AISTOCK_STOCK_BASEINFO_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_BASEINFO_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_STOCK_BASEINFO_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_BASEINFO_DATA.xss">
+      <DependentUpon>AISTOCK_STOCK_BASEINFO_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_BUY_HISTORY_DATA.xsc">
+      <DependentUpon>AISTOCK_STOCK_BUY_HISTORY_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_BUY_HISTORY_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_STOCK_BUY_HISTORY_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_BUY_HISTORY_DATA.xss">
+      <DependentUpon>AISTOCK_STOCK_BUY_HISTORY_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_BUY_STATS_DATA.xsc">
+      <DependentUpon>AISTOCK_STOCK_BUY_STATS_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_BUY_STATS_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_STOCK_BUY_STATS_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_BUY_STATS_DATA.xss">
+      <DependentUpon>AISTOCK_STOCK_BUY_STATS_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_COMMAND_DATA.xsc">
+      <DependentUpon>AISTOCK_STOCK_COMMAND_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_COMMAND_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_STOCK_COMMAND_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_COMMAND_DATA.xss">
+      <DependentUpon>AISTOCK_STOCK_COMMAND_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_DAILY_DATA_V_DATA.xsc">
+      <DependentUpon>AISTOCK_STOCK_DAILY_DATA_V_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_DAILY_DATA_V_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_STOCK_DAILY_DATA_V_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_DAILY_DATA_V_DATA.xss">
+      <DependentUpon>AISTOCK_STOCK_DAILY_DATA_V_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_GUDONGRENSHU_DATA.xsc">
+      <DependentUpon>AISTOCK_STOCK_GUDONGRENSHU_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_GUDONGRENSHU_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_STOCK_GUDONGRENSHU_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_GUDONGRENSHU_DATA.xss">
+      <DependentUpon>AISTOCK_STOCK_GUDONGRENSHU_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_HAMMER_V_DATA.xsc">
+      <DependentUpon>AISTOCK_STOCK_HAMMER_V_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_HAMMER_V_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_STOCK_HAMMER_V_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_HAMMER_V_DATA.xss">
+      <DependentUpon>AISTOCK_STOCK_HAMMER_V_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_IMPORT_DATA.xsc">
+      <DependentUpon>AISTOCK_STOCK_IMPORT_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_IMPORT_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_STOCK_IMPORT_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_IMPORT_DATA.xss">
+      <DependentUpon>AISTOCK_STOCK_IMPORT_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_INDEX_V_DATA.xsc">
+      <DependentUpon>AISTOCK_STOCK_INDEX_V_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_INDEX_V_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_STOCK_INDEX_V_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_INDEX_V_DATA.xss">
+      <DependentUpon>AISTOCK_STOCK_INDEX_V_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_INFORMATION_DATA.xsc">
+      <DependentUpon>AISTOCK_STOCK_INFORMATION_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_INFORMATION_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_STOCK_INFORMATION_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_INFORMATION_DATA.xss">
+      <DependentUpon>AISTOCK_STOCK_INFORMATION_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_JOBFINISHED_DATA.xsc">
+      <DependentUpon>AISTOCK_STOCK_JOBFINISHED_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_JOBFINISHED_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_STOCK_JOBFINISHED_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_JOBFINISHED_DATA.xss">
+      <DependentUpon>AISTOCK_STOCK_JOBFINISHED_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_LOG_DATA.xsc">
+      <DependentUpon>AISTOCK_STOCK_LOG_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_LOG_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_STOCK_LOG_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_LOG_DATA.xss">
+      <DependentUpon>AISTOCK_STOCK_LOG_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_LOW_FIVE_V_DATA.xsc">
+      <DependentUpon>AISTOCK_STOCK_LOW_FIVE_V_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_LOW_FIVE_V_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_STOCK_LOW_FIVE_V_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_LOW_FIVE_V_DATA.xss">
+      <DependentUpon>AISTOCK_STOCK_LOW_FIVE_V_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_MORNING_STAR_V_DATA.xsc">
+      <DependentUpon>AISTOCK_STOCK_MORNING_STAR_V_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_MORNING_STAR_V_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_STOCK_MORNING_STAR_V_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_MORNING_STAR_V_DATA.xss">
+      <DependentUpon>AISTOCK_STOCK_MORNING_STAR_V_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_ShiDaLiuTongGu_DATA.xsc">
+      <DependentUpon>AISTOCK_STOCK_ShiDaLiuTongGu_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_ShiDaLiuTongGu_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_STOCK_ShiDaLiuTongGu_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_ShiDaLiuTongGu_DATA.xss">
+      <DependentUpon>AISTOCK_STOCK_ShiDaLiuTongGu_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_SINGLE_PIN_V_DATA.xsc">
+      <DependentUpon>AISTOCK_STOCK_SINGLE_PIN_V_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_SINGLE_PIN_V_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_STOCK_SINGLE_PIN_V_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_SINGLE_PIN_V_DATA.xss">
+      <DependentUpon>AISTOCK_STOCK_SINGLE_PIN_V_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_STATS_DATA.xsc">
+      <DependentUpon>AISTOCK_STOCK_STATS_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_STATS_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_STOCK_STATS_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_STATS_DATA.xss">
+      <DependentUpon>AISTOCK_STOCK_STATS_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_SUMMARY_DATA.xsc">
+      <DependentUpon>AISTOCK_STOCK_SUMMARY_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_SUMMARY_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_STOCK_SUMMARY_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_SUMMARY_DATA.xss">
+      <DependentUpon>AISTOCK_STOCK_SUMMARY_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_TODAY_DATA.xsc">
+      <DependentUpon>AISTOCK_STOCK_TODAY_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_TODAY_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_STOCK_TODAY_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_TODAY_DATA.xss">
+      <DependentUpon>AISTOCK_STOCK_TODAY_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_TWO_PIN_V_DATA.xsc">
+      <DependentUpon>AISTOCK_STOCK_TWO_PIN_V_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_TWO_PIN_V_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_STOCK_TWO_PIN_V_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_TWO_PIN_V_DATA.xss">
+      <DependentUpon>AISTOCK_STOCK_TWO_PIN_V_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_WMS_V_DATA.xsc">
+      <DependentUpon>AISTOCK_STOCK_WMS_V_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_WMS_V_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_STOCK_WMS_V_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_WMS_V_DATA.xss">
+      <DependentUpon>AISTOCK_STOCK_WMS_V_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_WORDS_DATA.xsc">
+      <DependentUpon>AISTOCK_STOCK_WORDS_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_WORDS_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_STOCK_WORDS_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_STOCK_WORDS_DATA.xss">
+      <DependentUpon>AISTOCK_STOCK_WORDS_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_TEST_DATA.xsc">
+      <DependentUpon>AISTOCK_TEST_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AISTOCK_TEST_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AISTOCK_TEST_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AISTOCK_TEST_DATA.xss">
+      <DependentUpon>AISTOCK_TEST_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AppUserData.xsc">
+      <DependentUpon>AppUserData.xsd</DependentUpon>
+    </None>
+    <None Include="Data\AppUserData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AppUserData.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\AppUserData.xss">
+      <DependentUpon>AppUserData.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,42 @@
+D:\project\AISRS 1.0\AISRS 1.0\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\project\AISRS 1.0\AISRS 1.0\Common\bin\Debug\Common.dll.config
+D:\project\AISRS 1.0\AISRS 1.0\Common\bin\Debug\Common.dll
+D:\project\AISRS 1.0\AISRS 1.0\Common\bin\Debug\Common.pdb
+D:\project\AISRS 1.0\AISRS 1.0\Common\bin\Debug\DataProtection.dll
+D:\project\AISRS 1.0\AISRS 1.0\Common\obj\Debug\Common.dll
+D:\project\AISRS 1.0\AISRS 1.0\Common\obj\Debug\Common.pdb
+D:\work\BlueMatrix模板项目\AISRS 1.0\AISRS 1.0\Common\bin\Debug\Common.dll.config
+D:\work\BlueMatrix模板项目\AISRS 1.0\AISRS 1.0\Common\bin\Debug\Common.dll
+D:\work\BlueMatrix模板项目\AISRS 1.0\AISRS 1.0\Common\bin\Debug\Common.pdb
+D:\work\BlueMatrix模板项目\AISRS 1.0\AISRS 1.0\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\work\BlueMatrix模板项目\AISRS 1.0\AISRS 1.0\Common\obj\Debug\Common.dll
+D:\work\BlueMatrix模板项目\AISRS 1.0\AISRS 1.0\Common\obj\Debug\Common.pdb
+D:\work\AIStock 1.0\AISRS 1.0\Common\bin\Debug\Common.dll.config
+D:\work\AIStock 1.0\AISRS 1.0\Common\bin\Debug\Common.dll
+D:\work\AIStock 1.0\AISRS 1.0\Common\bin\Debug\Common.pdb
+D:\work\AIStock 1.0\AISRS 1.0\Common\bin\Debug\DataProtection.dll
+D:\work\AIStock 1.0\AISRS 1.0\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\work\AIStock 1.0\AISRS 1.0\Common\obj\Debug\Common.dll
+D:\work\AIStock 1.0\AISRS 1.0\Common\obj\Debug\Common.pdb
+C:\AIStock 1.0\AISRS 1.0\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\AIStock 1.0\AISRS 1.0\Common\obj\Debug\Common.dll
+C:\AIStock 1.0\AISRS 1.0\Common\bin\Debug\Common.dll.config
+C:\AIStock 1.0\AISRS 1.0\Common\bin\Debug\Common.dll
+C:\AIStock 1.0\AISRS 1.0\Common\bin\Debug\Common.pdb
+C:\AIStock 1.0\AISRS 1.0\Common\bin\Debug\Oracle.DataAccess.dll
+C:\AIStock 1.0\AISRS 1.0\Common\obj\Debug\Common.pdb
+D:\workspace\StockABC\Stock 1.0\Common\bin\Debug\Common.dll.config
+D:\workspace\StockABC\Stock 1.0\Common\bin\Debug\Common.dll
+D:\workspace\StockABC\Stock 1.0\Common\bin\Debug\Common.pdb
+D:\workspace\StockABC\Stock 1.0\Common\obj\Debug\Common.dll
+D:\workspace\StockABC\Stock 1.0\Common\obj\Debug\Common.pdb
+C:\Users\陈呈\OneDrive\bak_STOCKABC\StockABC\Stock 1.0\Common\bin\Debug\Common.dll.config
+C:\Users\陈呈\OneDrive\bak_STOCKABC\StockABC\Stock 1.0\Common\bin\Debug\Common.dll
+C:\Users\陈呈\OneDrive\bak_STOCKABC\StockABC\Stock 1.0\Common\bin\Debug\Common.pdb
+C:\Users\陈呈\OneDrive\bak_STOCKABC\StockABC\Stock 1.0\Common\obj\Debug\Common.dll
+C:\Users\陈呈\OneDrive\bak_STOCKABC\StockABC\Stock 1.0\Common\obj\Debug\Common.pdb
+C:\dev\workspace\StockABC\Stock 1.0\Common\bin\Debug\Common.dll.config
+C:\dev\workspace\StockABC\Stock 1.0\Common\bin\Debug\Common.dll
+C:\dev\workspace\StockABC\Stock 1.0\Common\bin\Debug\Common.pdb
+C:\dev\workspace\StockABC\Stock 1.0\Common\obj\Debug\Common.dll
+C:\dev\workspace\StockABC\Stock 1.0\Common\obj\Debug\Common.pdb

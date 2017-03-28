@@ -1,0 +1,12 @@
+D:\workspace\StockABC\SendEmail\bin\Debug\SendEmail.exe.config
+D:\workspace\StockABC\SendEmail\bin\Debug\SendEmail.exe
+D:\workspace\StockABC\SendEmail\bin\Debug\SendEmail.pdb
+D:\workspace\StockABC\SendEmail\bin\Debug\Common.dll
+D:\workspace\StockABC\SendEmail\bin\Debug\DataProtection.dll
+D:\workspace\StockABC\SendEmail\bin\Debug\Common.pdb
+D:\workspace\StockABC\SendEmail\obj\Debug\SendEmail.csprojResolveAssemblyReference.cache
+D:\workspace\StockABC\SendEmail\obj\Debug\SendEmail.Form1.resources
+D:\workspace\StockABC\SendEmail\obj\Debug\SendEmail.Properties.Resources.resources
+D:\workspace\StockABC\SendEmail\obj\Debug\SendEmail.csproj.GenerateResource.Cache
+D:\workspace\StockABC\SendEmail\obj\Debug\SendEmail.exe
+D:\workspace\StockABC\SendEmail\obj\Debug\SendEmail.pdb

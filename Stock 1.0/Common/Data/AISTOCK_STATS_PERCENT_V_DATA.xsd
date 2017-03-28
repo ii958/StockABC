@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AISTOCK_STATS_PERCENT_V_DATA" targetNamespace="http://tempuri.org/AISTOCK_STATS_PERCENT_V_DATA.xsd" xmlns:mstns="http://tempuri.org/AISTOCK_STATS_PERCENT_V_DATA.xsd" xmlns="http://tempuri.org/AISTOCK_STATS_PERCENT_V_DATA.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AISTOCK_STATS_PERCENT_V_DATA" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="AISTOCK_STATS_PERCENT_V_DATA" msprop:Generator_UserDSName="AISTOCK_STATS_PERCENT_V_DATA">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AISTOCK_STATS_PERCENT_V" msprop:Generator_TableClassName="AISTOCK_STATS_PERCENT_VDataTable" msprop:Generator_TableVarName="tableAISTOCK_STATS_PERCENT_V" msprop:Generator_TablePropName="AISTOCK_STATS_PERCENT_V" msprop:Generator_RowDeletingName="AISTOCK_STATS_PERCENT_VRowDeleting" msprop:Generator_UserTableName="AISTOCK_STATS_PERCENT_V" msprop:Generator_RowChangingName="AISTOCK_STATS_PERCENT_VRowChanging" msprop:Generator_RowEvHandlerName="AISTOCK_STATS_PERCENT_VRowChangeEventHandler" msprop:Generator_RowDeletedName="AISTOCK_STATS_PERCENT_VRowDeleted" msprop:Generator_RowEvArgName="AISTOCK_STATS_PERCENT_VRowChangeEvent" msprop:Generator_RowChangedName="AISTOCK_STATS_PERCENT_VRowChanged" msprop:Generator_RowClassName="AISTOCK_STATS_PERCENT_VRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FIELD_MAIN" msprop:Generator_ColumnVarNameInTable="columnFIELD_MAIN" msprop:Generator_ColumnPropNameInRow="FIELD_MAIN" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInTable="FIELD_MAINColumn" msprop:Generator_UserColumnName="FIELD_MAIN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TOTAL" msprop:Generator_ColumnVarNameInTable="columnTOTAL" msprop:Generator_ColumnPropNameInRow="TOTAL" msprop:Generator_ColumnPropNameInTable="TOTALColumn" msprop:Generator_UserColumnName="TOTAL" type="xs:int" minOccurs="0" />
+              <xs:element name="TOTAL_INCREASE" msprop:Generator_ColumnVarNameInTable="columnTOTAL_INCREASE" msprop:Generator_ColumnPropNameInRow="TOTAL_INCREASE" msprop:Generator_ColumnPropNameInTable="TOTAL_INCREASEColumn" msprop:Generator_UserColumnName="TOTAL_INCREASE" type="xs:int" minOccurs="0" />
+              <xs:element name="TOTAL_DECREASE" msprop:Generator_ColumnVarNameInTable="columnTOTAL_DECREASE" msprop:Generator_ColumnPropNameInRow="TOTAL_DECREASE" msprop:Generator_ColumnPropNameInTable="TOTAL_DECREASEColumn" msprop:Generator_UserColumnName="TOTAL_DECREASE" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AISTOCK_STOCK_INDEX_V_DATA" targetNamespace="http://tempuri.org/AISTOCK_STOCK_INDEX_V_DATA.xsd" xmlns:mstns="http://tempuri.org/AISTOCK_STOCK_INDEX_V_DATA.xsd" xmlns="http://tempuri.org/AISTOCK_STOCK_INDEX_V_DATA.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="AISTOCKConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="AISTOCKConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.AISRS.Common.Properties.Settings.GlobalReference.Default.AISTOCKConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AISTOCK_STOCK_INDEX_VTableAdapter" GeneratorDataComponentClassName="AISTOCK_STOCK_INDEX_VTableAdapter" Name="AISTOCK_STOCK_INDEX_V" UserDataComponentName="AISTOCK_STOCK_INDEX_VTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="AISTOCKConnectionString (Settings)" DbObjectName="AISTOCK.dbo.AISTOCK_STOCK_INDEX_V" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STOCK_CODE, STOCK_NAME, STOCK_DAY, DIFF, INCREASE_PERCENT, YESTERDAY_END, TODAY_END FROM dbo.AISTOCK_STOCK_INDEX_V</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STOCK_CODE" DataSetColumn="STOCK_CODE" />
+              <Mapping SourceColumn="STOCK_NAME" DataSetColumn="STOCK_NAME" />
+              <Mapping SourceColumn="STOCK_DAY" DataSetColumn="STOCK_DAY" />
+              <Mapping SourceColumn="DIFF" DataSetColumn="DIFF" />
+              <Mapping SourceColumn="INCREASE_PERCENT" DataSetColumn="INCREASE_PERCENT" />
+              <Mapping SourceColumn="YESTERDAY_END" DataSetColumn="YESTERDAY_END" />
+              <Mapping SourceColumn="TODAY_END" DataSetColumn="TODAY_END" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AISTOCK_STOCK_INDEX_V_DATA" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="AISTOCK_STOCK_INDEX_V_DATA" msprop:Generator_UserDSName="AISTOCK_STOCK_INDEX_V_DATA">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AISTOCK_STOCK_INDEX_V" msprop:Generator_TableClassName="AISTOCK_STOCK_INDEX_VDataTable" msprop:Generator_TableVarName="tableAISTOCK_STOCK_INDEX_V" msprop:Generator_TablePropName="AISTOCK_STOCK_INDEX_V" msprop:Generator_RowDeletingName="AISTOCK_STOCK_INDEX_VRowDeleting" msprop:Generator_UserTableName="AISTOCK_STOCK_INDEX_V" msprop:Generator_RowChangingName="AISTOCK_STOCK_INDEX_VRowChanging" msprop:Generator_RowEvHandlerName="AISTOCK_STOCK_INDEX_VRowChangeEventHandler" msprop:Generator_RowDeletedName="AISTOCK_STOCK_INDEX_VRowDeleted" msprop:Generator_RowEvArgName="AISTOCK_STOCK_INDEX_VRowChangeEvent" msprop:Generator_RowChangedName="AISTOCK_STOCK_INDEX_VRowChanged" msprop:Generator_RowClassName="AISTOCK_STOCK_INDEX_VRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOCK_CODE" msprop:Generator_ColumnVarNameInTable="columnSTOCK_CODE" msprop:Generator_ColumnPropNameInRow="STOCK_CODE" msprop:Generator_ColumnPropNameInTable="STOCK_CODEColumn" msprop:Generator_UserColumnName="STOCK_CODE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOCK_NAME" msprop:Generator_ColumnVarNameInTable="columnSTOCK_NAME" msprop:Generator_ColumnPropNameInRow="STOCK_NAME" msprop:Generator_ColumnPropNameInTable="STOCK_NAMEColumn" msprop:Generator_UserColumnName="STOCK_NAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOCK_DAY" msprop:Generator_ColumnVarNameInTable="columnSTOCK_DAY" msprop:Generator_ColumnPropNameInRow="STOCK_DAY" msprop:Generator_ColumnPropNameInTable="STOCK_DAYColumn" msprop:Generator_UserColumnName="STOCK_DAY" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DIFF" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnDIFF" msprop:Generator_ColumnPropNameInRow="DIFF" msprop:Generator_ColumnPropNameInTable="DIFFColumn" msprop:Generator_UserColumnName="DIFF" type="xs:decimal" minOccurs="0" />
+              <xs:element name="INCREASE_PERCENT" msprop:Generator_ColumnVarNameInTable="columnINCREASE_PERCENT" msprop:Generator_ColumnPropNameInRow="INCREASE_PERCENT" msprop:Generator_ColumnPropNameInTable="INCREASE_PERCENTColumn" msprop:Generator_UserColumnName="INCREASE_PERCENT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YESTERDAY_END" msprop:Generator_ColumnVarNameInTable="columnYESTERDAY_END" msprop:Generator_ColumnPropNameInRow="YESTERDAY_END" msprop:Generator_ColumnPropNameInTable="YESTERDAY_ENDColumn" msprop:Generator_UserColumnName="YESTERDAY_END" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TODAY_END" msprop:Generator_ColumnVarNameInTable="columnTODAY_END" msprop:Generator_ColumnPropNameInRow="TODAY_END" msprop:Generator_ColumnPropNameInTable="TODAY_ENDColumn" msprop:Generator_UserColumnName="TODAY_END" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

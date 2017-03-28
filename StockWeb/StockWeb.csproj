@@ -1,0 +1,1137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FA890AB9-4C1A-4A3D-A7D5-DF65F584546B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StockWeb</RootNamespace>
+    <AssemblyName>StockWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DatePicker\vssver2.scc" />
+    <Content Include="Extjs\resources\images\default\form\clear-trigger.psd" />
+    <Content Include="Extjs\resources\images\default\form\date-trigger.psd" />
+    <Content Include="Extjs\resources\images\default\form\search-trigger.psd" />
+    <Content Include="Extjs\resources\images\default\form\trigger.psd" />
+    <Content Include="Extjs\resources\images\default\window\left-corners.psd" />
+    <Content Include="Extjs\resources\images\default\window\left-right.psd" />
+    <Content Include="Extjs\resources\images\default\window\right-corners.psd" />
+    <Content Include="Extjs\resources\images\default\window\top-bottom.psd" />
+    <Content Include="Extjs\resources\images\gray\window\left-corners.pspimage" />
+    <Content Include="Extjs\resources\resources.jsb" />
+    <Content Include="Extjs\source\ext.jsb" />
+    <Content Include="File\201212月份收入计算结果核对%2820120110%29.xls" />
+    <Content Include="Index\RSIAnalyseBrowse.aspx" />
+    <Content Include="Site.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="CSS\blaf-cn.css" />
+    <Content Include="DailyMaintain\DailyReportBrowse.aspx" />
+    <Content Include="DataCenter\StockAvgPrice.aspx" />
+    <Content Include="DataCenter\StockHistoryBrowse.aspx" />
+    <Content Include="DataCenter\StockHistoryExport.aspx" />
+    <Content Include="DataCenter\StockImport.aspx" />
+    <Content Include="DataCenter\StockInfo.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="DataCenter\StockQueryBrowse.aspx" />
+    <Content Include="DatePicker\DatePicker.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="ErrorPage.aspx" />
+    <Content Include="Extjs\adapter\ext\ext-base.js" />
+    <Content Include="Extjs\adapter\jquery\ext-jquery-adapter.js" />
+    <Content Include="Extjs\adapter\prototype\ext-prototype-adapter.js" />
+    <Content Include="Extjs\adapter\yui\ext-yui-adapter.js" />
+    <Content Include="Extjs\ext-all-debug.js" />
+    <Content Include="Extjs\ext-all.js" />
+    <Content Include="Extjs\ext-core-debug.js" />
+    <Content Include="Extjs\ext-core.js" />
+    <Content Include="Extjs\resources\charts.swf" />
+    <Content Include="Extjs\resources\css\ext-all-notheme.css" />
+    <Content Include="Extjs\resources\css\ext-all.css" />
+    <Content Include="Extjs\resources\css\README.txt" />
+    <Content Include="Extjs\resources\css\reset-min.css" />
+    <Content Include="Extjs\resources\css\structure\borders.css" />
+    <Content Include="Extjs\resources\css\structure\box.css" />
+    <Content Include="Extjs\resources\css\structure\button.css" />
+    <Content Include="Extjs\resources\css\structure\combo.css" />
+    <Content Include="Extjs\resources\css\structure\core.css" />
+    <Content Include="Extjs\resources\css\structure\date-picker.css" />
+    <Content Include="Extjs\resources\css\structure\dd.css" />
+    <Content Include="Extjs\resources\css\structure\debug.css" />
+    <Content Include="Extjs\resources\css\structure\dialog.css" />
+    <Content Include="Extjs\resources\css\structure\editor.css" />
+    <Content Include="Extjs\resources\css\structure\form.css" />
+    <Content Include="Extjs\resources\css\structure\grid.css" />
+    <Content Include="Extjs\resources\css\structure\layout.css" />
+    <Content Include="Extjs\resources\css\structure\list-view.css" />
+    <Content Include="Extjs\resources\css\structure\menu.css" />
+    <Content Include="Extjs\resources\css\structure\panel-reset.css" />
+    <Content Include="Extjs\resources\css\structure\panel.css" />
+    <Content Include="Extjs\resources\css\structure\progress.css" />
+    <Content Include="Extjs\resources\css\structure\qtips.css" />
+    <Content Include="Extjs\resources\css\structure\reset.css" />
+    <Content Include="Extjs\resources\css\structure\resizable.css" />
+    <Content Include="Extjs\resources\css\structure\slider.css" />
+    <Content Include="Extjs\resources\css\structure\tabs.css" />
+    <Content Include="Extjs\resources\css\structure\toolbar.css" />
+    <Content Include="Extjs\resources\css\structure\tree.css" />
+    <Content Include="Extjs\resources\css\structure\window.css" />
+    <Content Include="Extjs\resources\css\visual\borders.css" />
+    <Content Include="Extjs\resources\css\visual\box.css" />
+    <Content Include="Extjs\resources\css\visual\button.css" />
+    <Content Include="Extjs\resources\css\visual\combo.css" />
+    <Content Include="Extjs\resources\css\visual\core.css" />
+    <Content Include="Extjs\resources\css\visual\date-picker.css" />
+    <Content Include="Extjs\resources\css\visual\dd.css" />
+    <Content Include="Extjs\resources\css\visual\debug.css" />
+    <Content Include="Extjs\resources\css\visual\dialog.css" />
+    <Content Include="Extjs\resources\css\visual\editor.css" />
+    <Content Include="Extjs\resources\css\visual\form.css" />
+    <Content Include="Extjs\resources\css\visual\grid.css" />
+    <Content Include="Extjs\resources\css\visual\layout.css" />
+    <Content Include="Extjs\resources\css\visual\list-view.css" />
+    <Content Include="Extjs\resources\css\visual\menu.css" />
+    <Content Include="Extjs\resources\css\visual\panel.css" />
+    <Content Include="Extjs\resources\css\visual\progress.css" />
+    <Content Include="Extjs\resources\css\visual\qtips.css" />
+    <Content Include="Extjs\resources\css\visual\resizable.css" />
+    <Content Include="Extjs\resources\css\visual\slider.css" />
+    <Content Include="Extjs\resources\css\visual\tabs.css" />
+    <Content Include="Extjs\resources\css\visual\toolbar.css" />
+    <Content Include="Extjs\resources\css\visual\tree.css" />
+    <Content Include="Extjs\resources\css\visual\window.css" />
+    <Content Include="Extjs\resources\css\xtheme-blue.css" />
+    <Content Include="Extjs\resources\expressinstall.swf" />
+    <Content Include="Extjs\resources\images\default\box\corners-blue.gif" />
+    <Content Include="Extjs\resources\images\default\box\corners.gif" />
+    <Content Include="Extjs\resources\images\default\box\l-blue.gif" />
+    <Content Include="Extjs\resources\images\default\box\l.gif" />
+    <Content Include="Extjs\resources\images\default\box\r-blue.gif" />
+    <Content Include="Extjs\resources\images\default\box\r.gif" />
+    <Content Include="Extjs\resources\images\default\box\tb-blue.gif" />
+    <Content Include="Extjs\resources\images\default\box\tb.gif" />
+    <Content Include="Extjs\resources\images\default\button\arrow.gif" />
+    <Content Include="Extjs\resources\images\default\button\btn.gif" />
+    <Content Include="Extjs\resources\images\default\button\group-cs.gif" />
+    <Content Include="Extjs\resources\images\default\button\group-lr.gif" />
+    <Content Include="Extjs\resources\images\default\button\group-tb.gif" />
+    <Content Include="Extjs\resources\images\default\button\s-arrow-b-noline.gif" />
+    <Content Include="Extjs\resources\images\default\button\s-arrow-b.gif" />
+    <Content Include="Extjs\resources\images\default\button\s-arrow-bo.gif" />
+    <Content Include="Extjs\resources\images\default\button\s-arrow-noline.gif" />
+    <Content Include="Extjs\resources\images\default\button\s-arrow-o.gif" />
+    <Content Include="Extjs\resources\images\default\button\s-arrow.gif" />
+    <Content Include="Extjs\resources\images\default\dd\drop-add.gif" />
+    <Content Include="Extjs\resources\images\default\dd\drop-no.gif" />
+    <Content Include="Extjs\resources\images\default\dd\drop-yes.gif" />
+    <Content Include="Extjs\resources\images\default\editor\tb-sprite.gif" />
+    <Content Include="Extjs\resources\images\default\form\checkbox.gif" />
+    <Content Include="Extjs\resources\images\default\form\clear-trigger.gif" />
+    <Content Include="Extjs\resources\images\default\form\date-trigger.gif" />
+    <Content Include="Extjs\resources\images\default\form\error-tip-corners.gif" />
+    <Content Include="Extjs\resources\images\default\form\exclamation.gif" />
+    <Content Include="Extjs\resources\images\default\form\radio.gif" />
+    <Content Include="Extjs\resources\images\default\form\search-trigger.gif" />
+    <Content Include="Extjs\resources\images\default\form\text-bg.gif" />
+    <Content Include="Extjs\resources\images\default\form\trigger-tpl.gif" />
+    <Content Include="Extjs\resources\images\default\form\trigger.gif" />
+    <Content Include="Extjs\resources\images\default\gradient-bg.gif" />
+    <Content Include="Extjs\resources\images\default\grid\arrow-left-white.gif" />
+    <Content Include="Extjs\resources\images\default\grid\arrow-right-white.gif" />
+    <Content Include="Extjs\resources\images\default\grid\col-move-bottom.gif" />
+    <Content Include="Extjs\resources\images\default\grid\col-move-top.gif" />
+    <Content Include="Extjs\resources\images\default\grid\columns.gif" />
+    <Content Include="Extjs\resources\images\default\grid\dirty.gif" />
+    <Content Include="Extjs\resources\images\default\grid\done.gif" />
+    <Content Include="Extjs\resources\images\default\grid\drop-no.gif" />
+    <Content Include="Extjs\resources\images\default\grid\drop-yes.gif" />
+    <Content Include="Extjs\resources\images\default\grid\footer-bg.gif" />
+    <Content Include="Extjs\resources\images\default\grid\grid-blue-hd.gif" />
+    <Content Include="Extjs\resources\images\default\grid\grid-blue-split.gif" />
+    <Content Include="Extjs\resources\images\default\grid\grid-hrow.gif" />
+    <Content Include="Extjs\resources\images\default\grid\grid-loading.gif" />
+    <Content Include="Extjs\resources\images\default\grid\grid-split.gif" />
+    <Content Include="Extjs\resources\images\default\grid\grid-vista-hd.gif" />
+    <Content Include="Extjs\resources\images\default\grid\grid3-hd-btn.gif" />
+    <Content Include="Extjs\resources\images\default\grid\grid3-hrow-over.gif" />
+    <Content Include="Extjs\resources\images\default\grid\grid3-hrow.gif" />
+    <Content Include="Extjs\resources\images\default\grid\grid3-special-col-bg.gif" />
+    <Content Include="Extjs\resources\images\default\grid\grid3-special-col-sel-bg.gif" />
+    <Content Include="Extjs\resources\images\default\grid\group-by.gif" />
+    <Content Include="Extjs\resources\images\default\grid\group-expand-sprite.gif" />
+    <Content Include="Extjs\resources\images\default\grid\hd-pop.gif" />
+    <Content Include="Extjs\resources\images\default\grid\hmenu-asc.gif" />
+    <Content Include="Extjs\resources\images\default\grid\hmenu-desc.gif" />
+    <Content Include="Extjs\resources\images\default\grid\hmenu-lock.gif" />
+    <Content Include="Extjs\resources\images\default\grid\hmenu-lock.png" />
+    <Content Include="Extjs\resources\images\default\grid\hmenu-unlock.gif" />
+    <Content Include="Extjs\resources\images\default\grid\hmenu-unlock.png" />
+    <Content Include="Extjs\resources\images\default\grid\invalid_line.gif" />
+    <Content Include="Extjs\resources\images\default\grid\loading.gif" />
+    <Content Include="Extjs\resources\images\default\grid\mso-hd.gif" />
+    <Content Include="Extjs\resources\images\default\grid\nowait.gif" />
+    <Content Include="Extjs\resources\images\default\grid\page-first-disabled.gif" />
+    <Content Include="Extjs\resources\images\default\grid\page-first.gif" />
+    <Content Include="Extjs\resources\images\default\grid\page-last-disabled.gif" />
+    <Content Include="Extjs\resources\images\default\grid\page-last.gif" />
+    <Content Include="Extjs\resources\images\default\grid\page-next-disabled.gif" />
+    <Content Include="Extjs\resources\images\default\grid\page-next.gif" />
+    <Content Include="Extjs\resources\images\default\grid\page-prev-disabled.gif" />
+    <Content Include="Extjs\resources\images\default\grid\page-prev.gif" />
+    <Content Include="Extjs\resources\images\default\grid\pick-button.gif" />
+    <Content Include="Extjs\resources\images\default\grid\refresh.gif" />
+    <Content Include="Extjs\resources\images\default\grid\row-check-sprite.gif" />
+    <Content Include="Extjs\resources\images\default\grid\row-expand-sprite.gif" />
+    <Content Include="Extjs\resources\images\default\grid\row-over.gif" />
+    <Content Include="Extjs\resources\images\default\grid\row-sel.gif" />
+    <Content Include="Extjs\resources\images\default\grid\sort-hd.gif" />
+    <Content Include="Extjs\resources\images\default\grid\sort_asc.gif" />
+    <Content Include="Extjs\resources\images\default\grid\sort_desc.gif" />
+    <Content Include="Extjs\resources\images\default\grid\wait.gif" />
+    <Content Include="Extjs\resources\images\default\layout\collapse.gif" />
+    <Content Include="Extjs\resources\images\default\layout\expand.gif" />
+    <Content Include="Extjs\resources\images\default\layout\gradient-bg.gif" />
+    <Content Include="Extjs\resources\images\default\layout\mini-bottom.gif" />
+    <Content Include="Extjs\resources\images\default\layout\mini-left.gif" />
+    <Content Include="Extjs\resources\images\default\layout\mini-right.gif" />
+    <Content Include="Extjs\resources\images\default\layout\mini-top.gif" />
+    <Content Include="Extjs\resources\images\default\layout\ns-collapse.gif" />
+    <Content Include="Extjs\resources\images\default\layout\ns-expand.gif" />
+    <Content Include="Extjs\resources\images\default\layout\panel-close.gif" />
+    <Content Include="Extjs\resources\images\default\layout\panel-title-bg.gif" />
+    <Content Include="Extjs\resources\images\default\layout\panel-title-light-bg.gif" />
+    <Content Include="Extjs\resources\images\default\layout\stick.gif" />
+    <Content Include="Extjs\resources\images\default\layout\stuck.gif" />
+    <Content Include="Extjs\resources\images\default\layout\tab-close-on.gif" />
+    <Content Include="Extjs\resources\images\default\layout\tab-close.gif" />
+    <Content Include="Extjs\resources\images\default\menu\checked.gif" />
+    <Content Include="Extjs\resources\images\default\menu\group-checked.gif" />
+    <Content Include="Extjs\resources\images\default\menu\item-over.gif" />
+    <Content Include="Extjs\resources\images\default\menu\menu-parent.gif" />
+    <Content Include="Extjs\resources\images\default\menu\menu.gif" />
+    <Content Include="Extjs\resources\images\default\menu\unchecked.gif" />
+    <Content Include="Extjs\resources\images\default\panel\corners-sprite.gif" />
+    <Content Include="Extjs\resources\images\default\panel\left-right.gif" />
+    <Content Include="Extjs\resources\images\default\panel\light-hd.gif" />
+    <Content Include="Extjs\resources\images\default\panel\tool-sprite-tpl.gif" />
+    <Content Include="Extjs\resources\images\default\panel\tool-sprites.gif" />
+    <Content Include="Extjs\resources\images\default\panel\tools-sprites-trans.gif" />
+    <Content Include="Extjs\resources\images\default\panel\top-bottom.gif" />
+    <Content Include="Extjs\resources\images\default\panel\top-bottom.png" />
+    <Content Include="Extjs\resources\images\default\panel\white-corners-sprite.gif" />
+    <Content Include="Extjs\resources\images\default\panel\white-left-right.gif" />
+    <Content Include="Extjs\resources\images\default\panel\white-top-bottom.gif" />
+    <Content Include="Extjs\resources\images\default\progress\progress-bg.gif" />
+    <Content Include="Extjs\resources\images\default\qtip\bg.gif" />
+    <Content Include="Extjs\resources\images\default\qtip\close.gif" />
+    <Content Include="Extjs\resources\images\default\qtip\tip-anchor-sprite.gif" />
+    <Content Include="Extjs\resources\images\default\qtip\tip-sprite.gif" />
+    <Content Include="Extjs\resources\images\default\s.gif" />
+    <Content Include="Extjs\resources\images\default\shadow-c.png" />
+    <Content Include="Extjs\resources\images\default\shadow-lr.png" />
+    <Content Include="Extjs\resources\images\default\shadow.png" />
+    <Content Include="Extjs\resources\images\default\shared\blue-loading.gif" />
+    <Content Include="Extjs\resources\images\default\shared\calendar.gif" />
+    <Content Include="Extjs\resources\images\default\shared\glass-bg.gif" />
+    <Content Include="Extjs\resources\images\default\shared\hd-sprite.gif" />
+    <Content Include="Extjs\resources\images\default\shared\large-loading.gif" />
+    <Content Include="Extjs\resources\images\default\shared\left-btn.gif" />
+    <Content Include="Extjs\resources\images\default\shared\loading-balls.gif" />
+    <Content Include="Extjs\resources\images\default\shared\right-btn.gif" />
+    <Content Include="Extjs\resources\images\default\shared\warning.gif" />
+    <Content Include="Extjs\resources\images\default\sizer\e-handle-dark.gif" />
+    <Content Include="Extjs\resources\images\default\sizer\e-handle.gif" />
+    <Content Include="Extjs\resources\images\default\sizer\ne-handle-dark.gif" />
+    <Content Include="Extjs\resources\images\default\sizer\ne-handle.gif" />
+    <Content Include="Extjs\resources\images\default\sizer\nw-handle-dark.gif" />
+    <Content Include="Extjs\resources\images\default\sizer\nw-handle.gif" />
+    <Content Include="Extjs\resources\images\default\sizer\s-handle-dark.gif" />
+    <Content Include="Extjs\resources\images\default\sizer\s-handle.gif" />
+    <Content Include="Extjs\resources\images\default\sizer\se-handle-dark.gif" />
+    <Content Include="Extjs\resources\images\default\sizer\se-handle.gif" />
+    <Content Include="Extjs\resources\images\default\sizer\square.gif" />
+    <Content Include="Extjs\resources\images\default\sizer\sw-handle-dark.gif" />
+    <Content Include="Extjs\resources\images\default\sizer\sw-handle.gif" />
+    <Content Include="Extjs\resources\images\default\slider\slider-bg.png" />
+    <Content Include="Extjs\resources\images\default\slider\slider-thumb.png" />
+    <Content Include="Extjs\resources\images\default\slider\slider-v-bg.png" />
+    <Content Include="Extjs\resources\images\default\slider\slider-v-thumb.png" />
+    <Content Include="Extjs\resources\images\default\tabs\scroll-left.gif" />
+    <Content Include="Extjs\resources\images\default\tabs\scroll-right.gif" />
+    <Content Include="Extjs\resources\images\default\tabs\scroller-bg.gif" />
+    <Content Include="Extjs\resources\images\default\tabs\tab-btm-inactive-left-bg.gif" />
+    <Content Include="Extjs\resources\images\default\tabs\tab-btm-inactive-right-bg.gif" />
+    <Content Include="Extjs\resources\images\default\tabs\tab-btm-left-bg.gif" />
+    <Content Include="Extjs\resources\images\default\tabs\tab-btm-right-bg.gif" />
+    <Content Include="Extjs\resources\images\default\tabs\tab-close.gif" />
+    <Content Include="Extjs\resources\images\default\tabs\tab-strip-bg.gif" />
+    <Content Include="Extjs\resources\images\default\tabs\tab-strip-bg.png" />
+    <Content Include="Extjs\resources\images\default\tabs\tab-strip-btm-bg.gif" />
+    <Content Include="Extjs\resources\images\default\tabs\tabs-sprite.gif" />
+    <Content Include="Extjs\resources\images\default\toolbar\bg.gif" />
+    <Content Include="Extjs\resources\images\default\toolbar\btn-arrow-light.gif" />
+    <Content Include="Extjs\resources\images\default\toolbar\btn-arrow.gif" />
+    <Content Include="Extjs\resources\images\default\toolbar\btn-over-bg.gif" />
+    <Content Include="Extjs\resources\images\default\toolbar\gray-bg.gif" />
+    <Content Include="Extjs\resources\images\default\toolbar\more.gif" />
+    <Content Include="Extjs\resources\images\default\toolbar\tb-bg.gif" />
+    <Content Include="Extjs\resources\images\default\toolbar\tb-btn-sprite.gif" />
+    <Content Include="Extjs\resources\images\default\toolbar\tb-xl-btn-sprite.gif" />
+    <Content Include="Extjs\resources\images\default\toolbar\tb-xl-sep.gif" />
+    <Content Include="Extjs\resources\images\default\tree\arrows.gif" />
+    <Content Include="Extjs\resources\images\default\tree\drop-add.gif" />
+    <Content Include="Extjs\resources\images\default\tree\drop-between.gif" />
+    <Content Include="Extjs\resources\images\default\tree\drop-no.gif" />
+    <Content Include="Extjs\resources\images\default\tree\drop-over.gif" />
+    <Content Include="Extjs\resources\images\default\tree\drop-under.gif" />
+    <Content Include="Extjs\resources\images\default\tree\drop-yes.gif" />
+    <Content Include="Extjs\resources\images\default\tree\elbow-end-minus-nl.gif" />
+    <Content Include="Extjs\resources\images\default\tree\elbow-end-minus.gif" />
+    <Content Include="Extjs\resources\images\default\tree\elbow-end-plus-nl.gif" />
+    <Content Include="Extjs\resources\images\default\tree\elbow-end-plus.gif" />
+    <Content Include="Extjs\resources\images\default\tree\elbow-end.gif" />
+    <Content Include="Extjs\resources\images\default\tree\elbow-line.gif" />
+    <Content Include="Extjs\resources\images\default\tree\elbow-minus-nl.gif" />
+    <Content Include="Extjs\resources\images\default\tree\elbow-minus.gif" />
+    <Content Include="Extjs\resources\images\default\tree\elbow-plus-nl.gif" />
+    <Content Include="Extjs\resources\images\default\tree\elbow-plus.gif" />
+    <Content Include="Extjs\resources\images\default\tree\elbow.gif" />
+    <Content Include="Extjs\resources\images\default\tree\folder-open.gif" />
+    <Content Include="Extjs\resources\images\default\tree\folder.gif" />
+    <Content Include="Extjs\resources\images\default\tree\leaf.gif" />
+    <Content Include="Extjs\resources\images\default\tree\loading.gif" />
+    <Content Include="Extjs\resources\images\default\tree\prodgp.gif" />
+    <Content Include="Extjs\resources\images\default\tree\prodgp1.gif" />
+    <Content Include="Extjs\resources\images\default\tree\s.gif" />
+    <Content Include="Extjs\resources\images\default\window\icon-error.gif" />
+    <Content Include="Extjs\resources\images\default\window\icon-info.gif" />
+    <Content Include="Extjs\resources\images\default\window\icon-question.gif" />
+    <Content Include="Extjs\resources\images\default\window\icon-warning.gif" />
+    <Content Include="Extjs\resources\images\default\window\left-corners.png" />
+    <Content Include="Extjs\resources\images\default\window\left-right.png" />
+    <Content Include="Extjs\resources\images\default\window\right-corners.png" />
+    <Content Include="Extjs\resources\images\default\window\top-bottom.png" />
+    <Content Include="Extjs\resources\images\gray\button\btn-arrow.gif" />
+    <Content Include="Extjs\resources\images\gray\button\btn-sprite.gif" />
+    <Content Include="Extjs\resources\images\gray\button\btn.gif" />
+    <Content Include="Extjs\resources\images\gray\button\group-cs.gif" />
+    <Content Include="Extjs\resources\images\gray\button\group-lr.gif" />
+    <Content Include="Extjs\resources\images\gray\button\group-tb.gif" />
+    <Content Include="Extjs\resources\images\gray\gradient-bg.gif" />
+    <Content Include="Extjs\resources\images\gray\panel\corners-sprite.gif" />
+    <Content Include="Extjs\resources\images\gray\panel\left-right.gif" />
+    <Content Include="Extjs\resources\images\gray\panel\light-hd.gif" />
+    <Content Include="Extjs\resources\images\gray\panel\tool-sprite-tpl.gif" />
+    <Content Include="Extjs\resources\images\gray\panel\tool-sprites.gif" />
+    <Content Include="Extjs\resources\images\gray\panel\tools-sprites-trans.gif" />
+    <Content Include="Extjs\resources\images\gray\panel\top-bottom.gif" />
+    <Content Include="Extjs\resources\images\gray\panel\top-bottom.png" />
+    <Content Include="Extjs\resources\images\gray\panel\white-corners-sprite.gif" />
+    <Content Include="Extjs\resources\images\gray\panel\white-left-right.gif" />
+    <Content Include="Extjs\resources\images\gray\panel\white-top-bottom.gif" />
+    <Content Include="Extjs\resources\images\gray\qtip\bg.gif" />
+    <Content Include="Extjs\resources\images\gray\qtip\close.gif" />
+    <Content Include="Extjs\resources\images\gray\qtip\tip-sprite.gif" />
+    <Content Include="Extjs\resources\images\gray\s.gif" />
+    <Content Include="Extjs\resources\images\gray\tabs\scroll-left.gif" />
+    <Content Include="Extjs\resources\images\gray\tabs\scroll-right.gif" />
+    <Content Include="Extjs\resources\images\gray\tabs\scroller-bg.gif" />
+    <Content Include="Extjs\resources\images\gray\tabs\tab-btm-inactive-left-bg.gif" />
+    <Content Include="Extjs\resources\images\gray\tabs\tab-btm-inactive-right-bg.gif" />
+    <Content Include="Extjs\resources\images\gray\tabs\tab-btm-left-bg.gif" />
+    <Content Include="Extjs\resources\images\gray\tabs\tab-btm-right-bg.gif" />
+    <Content Include="Extjs\resources\images\gray\tabs\tab-close.gif" />
+    <Content Include="Extjs\resources\images\gray\tabs\tab-strip-bg.gif" />
+    <Content Include="Extjs\resources\images\gray\tabs\tab-strip-bg.png" />
+    <Content Include="Extjs\resources\images\gray\tabs\tab-strip-btm-bg.gif" />
+    <Content Include="Extjs\resources\images\gray\tabs\tabs-sprite.gif" />
+    <Content Include="Extjs\resources\images\gray\toolbar\bg.gif" />
+    <Content Include="Extjs\resources\images\gray\toolbar\btn-arrow-light.gif" />
+    <Content Include="Extjs\resources\images\gray\toolbar\btn-arrow.gif" />
+    <Content Include="Extjs\resources\images\gray\toolbar\btn-over-bg.gif" />
+    <Content Include="Extjs\resources\images\gray\toolbar\gray-bg.gif" />
+    <Content Include="Extjs\resources\images\gray\toolbar\tb-bg.gif" />
+    <Content Include="Extjs\resources\images\gray\toolbar\tb-btn-sprite.gif" />
+    <Content Include="Extjs\resources\images\gray\window\icon-error.gif" />
+    <Content Include="Extjs\resources\images\gray\window\icon-info.gif" />
+    <Content Include="Extjs\resources\images\gray\window\icon-question.gif" />
+    <Content Include="Extjs\resources\images\gray\window\icon-warning.gif" />
+    <Content Include="Extjs\resources\images\gray\window\left-corners.png" />
+    <Content Include="Extjs\resources\images\gray\window\left-right.png" />
+    <Content Include="Extjs\resources\images\gray\window\right-corners.png" />
+    <Content Include="Extjs\resources\images\gray\window\top-bottom.png" />
+    <Content Include="Extjs\resources\images\vista\basic-dialog\bg-center.gif" />
+    <Content Include="Extjs\resources\images\vista\basic-dialog\bg-left.gif" />
+    <Content Include="Extjs\resources\images\vista\basic-dialog\bg-right.gif" />
+    <Content Include="Extjs\resources\images\vista\basic-dialog\close.gif" />
+    <Content Include="Extjs\resources\images\vista\basic-dialog\collapse.gif" />
+    <Content Include="Extjs\resources\images\vista\basic-dialog\dlg-bg.gif" />
+    <Content Include="Extjs\resources\images\vista\basic-dialog\e-handle.gif" />
+    <Content Include="Extjs\resources\images\vista\basic-dialog\expand.gif" />
+    <Content Include="Extjs\resources\images\vista\basic-dialog\hd-sprite.gif" />
+    <Content Include="Extjs\resources\images\vista\basic-dialog\s-handle.gif" />
+    <Content Include="Extjs\resources\images\vista\basic-dialog\se-handle.gif" />
+    <Content Include="Extjs\resources\images\vista\basic-dialog\w-handle.gif" />
+    <Content Include="Extjs\resources\images\vista\gradient-bg.gif" />
+    <Content Include="Extjs\resources\images\vista\grid\grid-split.gif" />
+    <Content Include="Extjs\resources\images\vista\grid\grid-vista-hd.gif" />
+    <Content Include="Extjs\resources\images\vista\layout\collapse.gif" />
+    <Content Include="Extjs\resources\images\vista\layout\expand.gif" />
+    <Content Include="Extjs\resources\images\vista\layout\gradient-bg.gif" />
+    <Content Include="Extjs\resources\images\vista\layout\ns-collapse.gif" />
+    <Content Include="Extjs\resources\images\vista\layout\ns-expand.gif" />
+    <Content Include="Extjs\resources\images\vista\layout\panel-close.gif" />
+    <Content Include="Extjs\resources\images\vista\layout\panel-title-bg.gif" />
+    <Content Include="Extjs\resources\images\vista\layout\panel-title-light-bg.gif" />
+    <Content Include="Extjs\resources\images\vista\layout\stick.gif" />
+    <Content Include="Extjs\resources\images\vista\layout\tab-close-on.gif" />
+    <Content Include="Extjs\resources\images\vista\layout\tab-close.gif" />
+    <Content Include="Extjs\resources\images\vista\qtip\bg.gif" />
+    <Content Include="Extjs\resources\images\vista\qtip\tip-sprite.gif" />
+    <Content Include="Extjs\resources\images\vista\s.gif" />
+    <Content Include="Extjs\resources\images\vista\sizer\e-handle-dark.gif" />
+    <Content Include="Extjs\resources\images\vista\sizer\e-handle.gif" />
+    <Content Include="Extjs\resources\images\vista\sizer\ne-handle-dark.gif" />
+    <Content Include="Extjs\resources\images\vista\sizer\ne-handle.gif" />
+    <Content Include="Extjs\resources\images\vista\sizer\nw-handle-dark.gif" />
+    <Content Include="Extjs\resources\images\vista\sizer\nw-handle.gif" />
+    <Content Include="Extjs\resources\images\vista\sizer\s-handle-dark.gif" />
+    <Content Include="Extjs\resources\images\vista\sizer\s-handle.gif" />
+    <Content Include="Extjs\resources\images\vista\sizer\se-handle-dark.gif" />
+    <Content Include="Extjs\resources\images\vista\sizer\se-handle.gif" />
+    <Content Include="Extjs\resources\images\vista\sizer\sw-handle-dark.gif" />
+    <Content Include="Extjs\resources\images\vista\sizer\sw-handle.gif" />
+    <Content Include="Extjs\resources\images\vista\tabs\tab-btm-inactive-left-bg.gif" />
+    <Content Include="Extjs\resources\images\vista\tabs\tab-btm-inactive-right-bg.gif" />
+    <Content Include="Extjs\resources\images\vista\tabs\tab-btm-left-bg.gif" />
+    <Content Include="Extjs\resources\images\vista\tabs\tab-btm-right-bg.gif" />
+    <Content Include="Extjs\resources\images\vista\tabs\tab-sprite.gif" />
+    <Content Include="Extjs\resources\images\vista\toolbar\gray-bg.gif" />
+    <Content Include="Extjs\resources\images\vista\toolbar\tb-btn-sprite.gif" />
+    <Content Include="Extjs\source\adapter\core\ext-base-ajax.js" />
+    <Content Include="Extjs\source\adapter\core\ext-base-anim-extra.js" />
+    <Content Include="Extjs\source\adapter\core\ext-base-anim.js" />
+    <Content Include="Extjs\source\adapter\core\ext-base-begin.js" />
+    <Content Include="Extjs\source\adapter\core\ext-base-dom.js" />
+    <Content Include="Extjs\source\adapter\core\ext-base-end.js" />
+    <Content Include="Extjs\source\adapter\core\ext-base-event.js" />
+    <Content Include="Extjs\source\adapter\core\ext-base-point.js" />
+    <Content Include="Extjs\source\adapter\core\ext-base-region.js" />
+    <Content Include="Extjs\source\adapter\ext-base-dom-more.js" />
+    <Content Include="Extjs\source\adapter\jquery-bridge.js" />
+    <Content Include="Extjs\source\adapter\prototype-bridge.js" />
+    <Content Include="Extjs\source\adapter\yui-bridge.js" />
+    <Content Include="Extjs\source\core\CompositeElement.js" />
+    <Content Include="Extjs\source\core\CompositeElementLite-more.js" />
+    <Content Include="Extjs\source\core\core\CompositeElementLite.js" />
+    <Content Include="Extjs\source\core\core\DomHelper.js" />
+    <Content Include="Extjs\source\core\core\Element.fx.js" />
+    <Content Include="Extjs\source\core\core\Element.insertion.js" />
+    <Content Include="Extjs\source\core\core\Element.js" />
+    <Content Include="Extjs\source\core\core\Element.position.js" />
+    <Content Include="Extjs\source\core\core\Element.scroll.js" />
+    <Content Include="Extjs\source\core\core\Element.style.js" />
+    <Content Include="Extjs\source\core\core\Element.traversal.js" />
+    <Content Include="Extjs\source\core\core\EventManager.js" />
+    <Content Include="Extjs\source\core\core\Ext.js" />
+    <Content Include="Extjs\source\core\core\Template.js" />
+    <Content Include="Extjs\source\core\DomHelper-more.js" />
+    <Content Include="Extjs\source\core\DomQuery.js" />
+    <Content Include="Extjs\source\core\Element-more.js" />
+    <Content Include="Extjs\source\core\Element.alignment.js" />
+    <Content Include="Extjs\source\core\Element.dd.js" />
+    <Content Include="Extjs\source\core\Element.fx-more.js" />
+    <Content Include="Extjs\source\core\Element.insertion-more.js" />
+    <Content Include="Extjs\source\core\Element.keys.js" />
+    <Content Include="Extjs\source\core\Element.legacy.js" />
+    <Content Include="Extjs\source\core\Element.position-more.js" />
+    <Content Include="Extjs\source\core\Element.scroll-more.js" />
+    <Content Include="Extjs\source\core\Element.style-more.js" />
+    <Content Include="Extjs\source\core\Error.js" />
+    <Content Include="Extjs\source\core\EventManager-more.js" />
+    <Content Include="Extjs\source\core\Ext-more.js" />
+    <Content Include="Extjs\source\core\Fx.js" />
+    <Content Include="Extjs\source\core\Template-more.js" />
+    <Content Include="Extjs\source\data\Api.js" />
+    <Content Include="Extjs\source\data\ArrayReader.js" />
+    <Content Include="Extjs\source\data\ArrayStore.js" />
+    <Content Include="Extjs\source\data\core\Connection.js" />
+    <Content Include="Extjs\source\data\DataField.js" />
+    <Content Include="Extjs\source\data\DataProxy.js" />
+    <Content Include="Extjs\source\data\DataReader.js" />
+    <Content Include="Extjs\source\data\DataWriter.js" />
+    <Content Include="Extjs\source\data\DirectProxy.js" />
+    <Content Include="Extjs\source\data\DirectStore.js" />
+    <Content Include="Extjs\source\data\GroupingStore.js" />
+    <Content Include="Extjs\source\data\HttpProxy.js" />
+    <Content Include="Extjs\source\data\JsonReader.js" />
+    <Content Include="Extjs\source\data\JsonStore.js" />
+    <Content Include="Extjs\source\data\JsonWriter.js" />
+    <Content Include="Extjs\source\data\MemoryProxy.js" />
+    <Content Include="Extjs\source\data\Record.js" />
+    <Content Include="Extjs\source\data\ScriptTagProxy.js" />
+    <Content Include="Extjs\source\data\SortTypes.js" />
+    <Content Include="Extjs\source\data\Store.js" />
+    <Content Include="Extjs\source\data\StoreMgr.js" />
+    <Content Include="Extjs\source\data\Tree.js" />
+    <Content Include="Extjs\source\data\XmlReader.js" />
+    <Content Include="Extjs\source\data\XmlStore.js" />
+    <Content Include="Extjs\source\data\XmlWriter.js" />
+    <Content Include="Extjs\source\dd\DDCore.js" />
+    <Content Include="Extjs\source\dd\DragSource.js" />
+    <Content Include="Extjs\source\dd\DragTracker.js" />
+    <Content Include="Extjs\source\dd\DragZone.js" />
+    <Content Include="Extjs\source\dd\DropTarget.js" />
+    <Content Include="Extjs\source\dd\DropZone.js" />
+    <Content Include="Extjs\source\dd\Registry.js" />
+    <Content Include="Extjs\source\dd\ScrollManager.js" />
+    <Content Include="Extjs\source\dd\StatusProxy.js" />
+    <Content Include="Extjs\source\debug.css" />
+    <Content Include="Extjs\source\debug.js" />
+    <Content Include="Extjs\source\direct\Direct.js" />
+    <Content Include="Extjs\source\direct\Event.js" />
+    <Content Include="Extjs\source\direct\JsonProvider.js" />
+    <Content Include="Extjs\source\direct\PollingProvider.js" />
+    <Content Include="Extjs\source\direct\Provider.js" />
+    <Content Include="Extjs\source\direct\RemotingProvider.js" />
+    <Content Include="Extjs\source\direct\Transaction.js" />
+    <Content Include="Extjs\source\license.txt" />
+    <Content Include="Extjs\source\locale\ext-lang-af.js" />
+    <Content Include="Extjs\source\locale\ext-lang-bg.js" />
+    <Content Include="Extjs\source\locale\ext-lang-ca.js" />
+    <Content Include="Extjs\source\locale\ext-lang-cs.js" />
+    <Content Include="Extjs\source\locale\ext-lang-da.js" />
+    <Content Include="Extjs\source\locale\ext-lang-de.js" />
+    <Content Include="Extjs\source\locale\ext-lang-el_GR.js" />
+    <Content Include="Extjs\source\locale\ext-lang-en.js" />
+    <Content Include="Extjs\source\locale\ext-lang-en_GB.js" />
+    <Content Include="Extjs\source\locale\ext-lang-es.js" />
+    <Content Include="Extjs\source\locale\ext-lang-fa.js" />
+    <Content Include="Extjs\source\locale\ext-lang-fi.js" />
+    <Content Include="Extjs\source\locale\ext-lang-fr.js" />
+    <Content Include="Extjs\source\locale\ext-lang-fr_CA.js" />
+    <Content Include="Extjs\source\locale\ext-lang-gr.js" />
+    <Content Include="Extjs\source\locale\ext-lang-he.js" />
+    <Content Include="Extjs\source\locale\ext-lang-hr.js" />
+    <Content Include="Extjs\source\locale\ext-lang-hu.js" />
+    <Content Include="Extjs\source\locale\ext-lang-id.js" />
+    <Content Include="Extjs\source\locale\ext-lang-it.js" />
+    <Content Include="Extjs\source\locale\ext-lang-ja.js" />
+    <Content Include="Extjs\source\locale\ext-lang-ko.js" />
+    <Content Include="Extjs\source\locale\ext-lang-lt.js" />
+    <Content Include="Extjs\source\locale\ext-lang-lv.js" />
+    <Content Include="Extjs\source\locale\ext-lang-mk.js" />
+    <Content Include="Extjs\source\locale\ext-lang-nl.js" />
+    <Content Include="Extjs\source\locale\ext-lang-no_NB.js" />
+    <Content Include="Extjs\source\locale\ext-lang-no_NN.js" />
+    <Content Include="Extjs\source\locale\ext-lang-pl.js" />
+    <Content Include="Extjs\source\locale\ext-lang-pt.js" />
+    <Content Include="Extjs\source\locale\ext-lang-pt_BR.js" />
+    <Content Include="Extjs\source\locale\ext-lang-pt_PT.js" />
+    <Content Include="Extjs\source\locale\ext-lang-ro.js" />
+    <Content Include="Extjs\source\locale\ext-lang-ru.js" />
+    <Content Include="Extjs\source\locale\ext-lang-sk.js" />
+    <Content Include="Extjs\source\locale\ext-lang-sl.js" />
+    <Content Include="Extjs\source\locale\ext-lang-sr.js" />
+    <Content Include="Extjs\source\locale\ext-lang-sr_RS.js" />
+    <Content Include="Extjs\source\locale\ext-lang-sv_SE.js" />
+    <Content Include="Extjs\source\locale\ext-lang-th.js" />
+    <Content Include="Extjs\source\locale\ext-lang-tr.js" />
+    <Content Include="Extjs\source\locale\ext-lang-ukr.js" />
+    <Content Include="Extjs\source\locale\ext-lang-vn.js" />
+    <Content Include="Extjs\source\locale\ext-lang-zh_CN.js" />
+    <Content Include="Extjs\source\locale\ext-lang-zh_TW.js" />
+    <Content Include="Extjs\source\state\CookieProvider.js" />
+    <Content Include="Extjs\source\state\Provider.js" />
+    <Content Include="Extjs\source\state\StateManager.js" />
+    <Content Include="Extjs\source\util\ClickRepeater.js" />
+    <Content Include="Extjs\source\util\Cookies.js" />
+    <Content Include="Extjs\source\util\core\DelayedTask.js" />
+    <Content Include="Extjs\source\util\core\Observable.js" />
+    <Content Include="Extjs\source\util\core\TaskMgr.js" />
+    <Content Include="Extjs\source\util\CSS.js" />
+    <Content Include="Extjs\source\util\Date.js" />
+    <Content Include="Extjs\source\util\Format.js" />
+    <Content Include="Extjs\source\util\History.js" />
+    <Content Include="Extjs\source\util\JSON.js" />
+    <Content Include="Extjs\source\util\KeyMap.js" />
+    <Content Include="Extjs\source\util\KeyNav.js" />
+    <Content Include="Extjs\source\util\MixedCollection.js" />
+    <Content Include="Extjs\source\util\Observable-more.js" />
+    <Content Include="Extjs\source\util\TextMetrics.js" />
+    <Content Include="Extjs\source\util\UpdateManager.js" />
+    <Content Include="Extjs\source\util\XTemplate.js" />
+    <Content Include="Extjs\source\widgets\Action.js" />
+    <Content Include="Extjs\source\widgets\BoxComponent.js" />
+    <Content Include="Extjs\source\widgets\Button.js" />
+    <Content Include="Extjs\source\widgets\chart\Chart.js" />
+    <Content Include="Extjs\source\widgets\chart\EventProxy.js" />
+    <Content Include="Extjs\source\widgets\chart\FlashComponent.js" />
+    <Content Include="Extjs\source\widgets\chart\swfobject.js" />
+    <Content Include="Extjs\source\widgets\ColorPalette.js" />
+    <Content Include="Extjs\source\widgets\Component.js" />
+    <Content Include="Extjs\source\widgets\ComponentMgr.js" />
+    <Content Include="Extjs\source\widgets\Container.js" />
+    <Content Include="Extjs\source\widgets\CycleButton.js" />
+    <Content Include="Extjs\source\widgets\DataView.js" />
+    <Content Include="Extjs\source\widgets\DatePicker.js" />
+    <Content Include="Extjs\source\widgets\Editor.js" />
+    <Content Include="Extjs\source\widgets\form\Action.js" />
+    <Content Include="Extjs\source\widgets\form\BasicForm.js" />
+    <Content Include="Extjs\source\widgets\form\Checkbox.js" />
+    <Content Include="Extjs\source\widgets\form\CheckboxGroup.js" />
+    <Content Include="Extjs\source\widgets\form\Combo.js" />
+    <Content Include="Extjs\source\widgets\form\DateField.js" />
+    <Content Include="Extjs\source\widgets\form\DisplayField.js" />
+    <Content Include="Extjs\source\widgets\form\Field.js" />
+    <Content Include="Extjs\source\widgets\form\FieldSet.js" />
+    <Content Include="Extjs\source\widgets\form\Form.js" />
+    <Content Include="Extjs\source\widgets\form\Hidden.js" />
+    <Content Include="Extjs\source\widgets\form\HtmlEditor.js" />
+    <Content Include="Extjs\source\widgets\form\Label.js" />
+    <Content Include="Extjs\source\widgets\form\NumberField.js" />
+    <Content Include="Extjs\source\widgets\form\Radio.js" />
+    <Content Include="Extjs\source\widgets\form\RadioGroup.js" />
+    <Content Include="Extjs\source\widgets\form\TextArea.js" />
+    <Content Include="Extjs\source\widgets\form\TextField.js" />
+    <Content Include="Extjs\source\widgets\form\TimeField.js" />
+    <Content Include="Extjs\source\widgets\form\TriggerField.js" />
+    <Content Include="Extjs\source\widgets\form\VTypes.js" />
+    <Content Include="Extjs\source\widgets\grid\AbstractSelectionModel.js" />
+    <Content Include="Extjs\source\widgets\grid\CellSelectionModel.js" />
+    <Content Include="Extjs\source\widgets\grid\CheckboxSelectionModel.js" />
+    <Content Include="Extjs\source\widgets\grid\Column.js" />
+    <Content Include="Extjs\source\widgets\grid\ColumnDD.js" />
+    <Content Include="Extjs\source\widgets\grid\ColumnModel.js" />
+    <Content Include="Extjs\source\widgets\grid\ColumnSplitDD.js" />
+    <Content Include="Extjs\source\widgets\grid\EditorGrid.js" />
+    <Content Include="Extjs\source\widgets\grid\GridDD.js" />
+    <Content Include="Extjs\source\widgets\grid\GridEditor.js" />
+    <Content Include="Extjs\source\widgets\grid\GridPanel.js" />
+    <Content Include="Extjs\source\widgets\grid\GridView.js" />
+    <Content Include="Extjs\source\widgets\grid\GroupingView.js" />
+    <Content Include="Extjs\source\widgets\grid\PropertyGrid.js" />
+    <Content Include="Extjs\source\widgets\grid\RowNumberer.js" />
+    <Content Include="Extjs\source\widgets\grid\RowSelectionModel.js" />
+    <Content Include="Extjs\source\widgets\Layer.js" />
+    <Content Include="Extjs\source\widgets\layout\AbsoluteLayout.js" />
+    <Content Include="Extjs\source\widgets\layout\AccordionLayout.js" />
+    <Content Include="Extjs\source\widgets\layout\AnchorLayout.js" />
+    <Content Include="Extjs\source\widgets\layout\BorderLayout.js" />
+    <Content Include="Extjs\source\widgets\layout\BoxLayout.js" />
+    <Content Include="Extjs\source\widgets\layout\CardLayout.js" />
+    <Content Include="Extjs\source\widgets\layout\ColumnLayout.js" />
+    <Content Include="Extjs\source\widgets\layout\ContainerLayout.js" />
+    <Content Include="Extjs\source\widgets\layout\FitLayout.js" />
+    <Content Include="Extjs\source\widgets\layout\FormLayout.js" />
+    <Content Include="Extjs\source\widgets\layout\TableLayout.js" />
+    <Content Include="Extjs\source\widgets\list\ColumnResizer.js" />
+    <Content Include="Extjs\source\widgets\list\ListView.js" />
+    <Content Include="Extjs\source\widgets\list\Sorter.js" />
+    <Content Include="Extjs\source\widgets\LoadMask.js" />
+    <Content Include="Extjs\source\widgets\menu\BaseItem.js" />
+    <Content Include="Extjs\source\widgets\menu\CheckItem.js" />
+    <Content Include="Extjs\source\widgets\menu\ColorMenu.js" />
+    <Content Include="Extjs\source\widgets\menu\DateMenu.js" />
+    <Content Include="Extjs\source\widgets\menu\Item.js" />
+    <Content Include="Extjs\source\widgets\menu\Menu.js" />
+    <Content Include="Extjs\source\widgets\menu\MenuMgr.js" />
+    <Content Include="Extjs\source\widgets\menu\Separator.js" />
+    <Content Include="Extjs\source\widgets\menu\TextItem.js" />
+    <Content Include="Extjs\source\widgets\MessageBox.js" />
+    <Content Include="Extjs\source\widgets\PagingToolbar.js" />
+    <Content Include="Extjs\source\widgets\Panel.js" />
+    <Content Include="Extjs\source\widgets\PanelDD.js" />
+    <Content Include="Extjs\source\widgets\ProgressBar.js" />
+    <Content Include="Extjs\source\widgets\Resizable.js" />
+    <Content Include="Extjs\source\widgets\Shadow.js" />
+    <Content Include="Extjs\source\widgets\Slider.js" />
+    <Content Include="Extjs\source\widgets\SplitBar.js" />
+    <Content Include="Extjs\source\widgets\SplitButton.js" />
+    <Content Include="Extjs\source\widgets\TabPanel.js" />
+    <Content Include="Extjs\source\widgets\tips\QuickTip.js" />
+    <Content Include="Extjs\source\widgets\tips\QuickTips.js" />
+    <Content Include="Extjs\source\widgets\tips\Tip.js" />
+    <Content Include="Extjs\source\widgets\tips\ToolTip.js" />
+    <Content Include="Extjs\source\widgets\Toolbar.js" />
+    <Content Include="Extjs\source\widgets\tree\AsyncTreeNode.js" />
+    <Content Include="Extjs\source\widgets\tree\TreeDragZone.js" />
+    <Content Include="Extjs\source\widgets\tree\TreeDropZone.js" />
+    <Content Include="Extjs\source\widgets\tree\TreeEditor.js" />
+    <Content Include="Extjs\source\widgets\tree\TreeEventModel.js" />
+    <Content Include="Extjs\source\widgets\tree\TreeFilter.js" />
+    <Content Include="Extjs\source\widgets\tree\TreeLoader.js" />
+    <Content Include="Extjs\source\widgets\tree\TreeNode.js" />
+    <Content Include="Extjs\source\widgets\tree\TreeNodeUI.js" />
+    <Content Include="Extjs\source\widgets\tree\TreePanel.js" />
+    <Content Include="Extjs\source\widgets\tree\TreeSelectionModel.js" />
+    <Content Include="Extjs\source\widgets\tree\TreeSorter.js" />
+    <Content Include="Extjs\source\widgets\Viewport.js" />
+    <Content Include="Extjs\source\widgets\Window.js" />
+    <Content Include="Extjs\source\widgets\WindowManager.js" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\blue_background.gif" />
+    <Content Include="Images\blue_left.gif" />
+    <Content Include="Images\blue_right.gif" />
+    <Content Include="Images\btnShort.gif" />
+    <Content Include="Images\button_background.gif" />
+    <Content Include="Images\button_bottom1.gif" />
+    <Content Include="Images\button_bottom2.gif" />
+    <Content Include="Images\button_left.gif" />
+    <Content Include="Images\button_right.gif" />
+    <Content Include="Images\Close.gif" />
+    <Content Include="Images\ControlBarleft.gif" />
+    <Content Include="Images\DatePicker.gif" />
+    <Content Include="Images\datepicker_lgarrowleft_enabled.gif" />
+    <Content Include="Images\datepicker_lgarrowright_enabled.gif" />
+    <Content Include="Images\deleteicon_enabled.gif" />
+    <Content Include="Images\down.GIF" />
+    <Content Include="Images\footer.gif" />
+    <Content Include="Images\Header.gif" />
+    <Content Include="Images\helpButton_active.gif" />
+    <Content Include="Images\helpButton_disabled.gif" />
+    <Content Include="Images\helpButton_enabled.gif" />
+    <Content Include="Images\HorizontalNavigation.gif" />
+    <Content Include="Images\infoicon_pagetitle.gif" />
+    <Content Include="Images\Left.gif" />
+    <Content Include="Images\line.gif" />
+    <Content Include="Images\load-indicator.gif" />
+    <Content Include="Images\loading.gif" />
+    <Content Include="Images\logoApply.jpg" />
+    <Content Include="Images\Open.gif" />
+    <Content Include="Images\prevnext_smlarrowleft_disabled.gif" />
+    <Content Include="Images\prevnext_smlarrowleft_enabled.gif" />
+    <Content Include="Images\prevnext_smlarrowright_disabled.gif" />
+    <Content Include="Images\prevnext_smlarrowright_enabled.gif" />
+    <Content Include="Images\qaButton_active.gif" />
+    <Content Include="Images\qaButton_enabled.gif" />
+    <Content Include="Images\Right.gif" />
+    <Content Include="Images\s.gif" />
+    <Content Include="Images\searchicon_enabled.gif" />
+    <Content Include="Images\smallbutton_left.gif" />
+    <Content Include="Images\smallbutton_right.gif" />
+    <Content Include="Images\tipicon_status.gif" />
+    <Content Include="Images\toolbar_separator.gif" />
+    <Content Include="Images\up.gif" />
+    <Content Include="Images\warning.gif" />
+    <Content Include="Images\warningicon_pagetitle.gif" />
+    <Content Include="Images\yellow_background.gif" />
+    <Content Include="Images\yellow_background_01.GIF" />
+    <Content Include="Images\yellow_blue.gif" />
+    <Content Include="Images\yellow_left.gif" />
+    <Content Include="Images\yellow_left_02.gif" />
+    <Content Include="Images\yellow_right.gif" />
+    <Content Include="Images\yellow_right_01.GIF" />
+    <Content Include="Index\IndexAnalyseBrowse.aspx" />
+    <Content Include="Index\IndexAnalyseExport.aspx" />
+    <Content Include="Index\StockBuyBrowse.aspx" />
+    <Content Include="Index\StockBuyHistoryBrowse.aspx" />
+    <Content Include="Index\StockBuyHistoryExport.aspx" />
+    <Content Include="Index\StockStatsBrowse.aspx" />
+    <Content Include="JavaScript\bmValidity.js" />
+    <Content Include="JavaScript\Callback.js" />
+    <Content Include="JavaScript\Flowchart.js" />
+    <Content Include="JavaScript\hpc60_utilities.js" />
+    <Content Include="JavaScript\jsfunction.js" />
+    <Content Include="Modules\BlafPagePicker.ascx" />
+    <Content Include="Modules\BmBlafTable.ascx" />
+    <Content Include="Modules\DatePicker.ascx" />
+    <Content Include="Modules\DropDownListDatePicker.ascx" />
+    <Content Include="Modules\DropDownListYearMonthPicker.ascx" />
+    <Content Include="Modules\Footer.ascx" />
+    <Content Include="Modules\Header.ascx" />
+    <Content Include="Modules\HpFnPeriodPicker.ascx" />
+    <Content Include="Modules\HyperLinkAndLinkButton.ascx" />
+    <Content Include="Modules\HyperLinkButton.ascx" />
+    <Content Include="Modules\LinkButton.ascx" />
+    <Content Include="Modules\MonthPicker.ascx" />
+    <Content Include="Modules\Navigation.ascx" />
+    <Content Include="Modules\Navigation.xml" />
+    <Content Include="Modules\SubHeader.ascx" />
+    <Content Include="Modules\SubHeader2.ascx" />
+    <Content Include="Modules\SubSubHeader.ascx" />
+    <None Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="UpdateMessage.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CallbackPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DailyMaintain\DailyReportBrowse.aspx.cs">
+      <DependentUpon>DailyReportBrowse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DailyMaintain\DailyReportBrowse.aspx.designer.cs">
+      <DependentUpon>DailyReportBrowse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataCenter\StockAvgPrice.aspx.cs">
+      <DependentUpon>StockAvgPrice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataCenter\StockAvgPrice.aspx.designer.cs">
+      <DependentUpon>StockAvgPrice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataCenter\StockHistoryBrowse.aspx.cs">
+      <DependentUpon>StockHistoryBrowse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataCenter\StockHistoryBrowse.aspx.designer.cs">
+      <DependentUpon>StockHistoryBrowse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataCenter\StockHistoryExport.aspx.cs">
+      <DependentUpon>StockHistoryExport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataCenter\StockHistoryExport.aspx.designer.cs">
+      <DependentUpon>StockHistoryExport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataCenter\StockImport.aspx.cs">
+      <DependentUpon>StockImport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataCenter\StockImport.aspx.designer.cs">
+      <DependentUpon>StockImport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataCenter\StockQueryBrowse.aspx.cs">
+      <DependentUpon>StockQueryBrowse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataCenter\StockQueryBrowse.aspx.designer.cs">
+      <DependentUpon>StockQueryBrowse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DatePicker\DatePicker.aspx.cs">
+      <DependentUpon>DatePicker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="IDataService.cs" />
+    <Compile Include="Index\RSIAnalyseBrowse.aspx.cs">
+      <DependentUpon>RSIAnalyseBrowse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index\RSIAnalyseBrowse.aspx.designer.cs">
+      <DependentUpon>RSIAnalyseBrowse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index\IndexAnalyseBrowse.aspx.cs">
+      <DependentUpon>IndexAnalyseBrowse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index\IndexAnalyseBrowse.aspx.designer.cs">
+      <DependentUpon>IndexAnalyseBrowse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index\IndexAnalyseExport.aspx.cs">
+      <DependentUpon>IndexAnalyseExport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index\IndexAnalyseExport.aspx.designer.cs">
+      <DependentUpon>IndexAnalyseExport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index\StockBuyBrowse.aspx.cs">
+      <DependentUpon>StockBuyBrowse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index\StockBuyBrowse.aspx.designer.cs">
+      <DependentUpon>StockBuyBrowse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index\StockBuyHistoryBrowse.aspx.cs">
+      <DependentUpon>StockBuyHistoryBrowse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index\StockBuyHistoryBrowse.aspx.designer.cs">
+      <DependentUpon>StockBuyHistoryBrowse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index\StockBuyHistoryExport.aspx.cs">
+      <DependentUpon>StockBuyHistoryExport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index\StockBuyHistoryExport.aspx.designer.cs">
+      <DependentUpon>StockBuyHistoryExport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index\StockStatsBrowse.aspx.cs">
+      <DependentUpon>StockStatsBrowse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index\StockStatsBrowse.aspx.designer.cs">
+      <DependentUpon>StockStatsBrowse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\BlafPagePicker.ascx.cs">
+      <DependentUpon>BlafPagePicker.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\BmBlafTable.ascx.cs">
+      <DependentUpon>BmBlafTable.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\DatePicker.ascx.cs">
+      <DependentUpon>DatePicker.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\DropDownListDatePicker.ascx.cs">
+      <DependentUpon>DropDownListDatePicker.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\DropDownListYearMonthPicker.ascx.cs">
+      <DependentUpon>DropDownListYearMonthPicker.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\Footer.ascx.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\Header.ascx.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\HpFnPeriodPicker.ascx.cs">
+      <DependentUpon>HpFnPeriodPicker.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\HyperLinkAndLinkButton.ascx.cs">
+      <DependentUpon>HyperLinkAndLinkButton.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\HyperLinkButton.ascx.cs">
+      <DependentUpon>HyperLinkButton.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\LinkButton.ascx.cs">
+      <DependentUpon>LinkButton.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\MonthPicker.ascx.cs">
+      <DependentUpon>MonthPicker.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\Navigation.ascx.cs">
+      <DependentUpon>Navigation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\NavigationPermission.cs" />
+    <Compile Include="Modules\PagePicker.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\SubHeader.ascx.cs">
+      <DependentUpon>SubHeader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\SubHeader2.ascx.cs">
+      <DependentUpon>SubHeader2.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\SubSubHeader.ascx.cs">
+      <DependentUpon>SubSubHeader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageBaseNoPermission.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ParseStock.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateMessage.aspx.cs">
+      <DependentUpon>UpdateMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebServiceHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DatePicker\DatePicker.aspx.resx">
+      <DependentUpon>DatePicker.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorPage.aspx.resx">
+      <DependentUpon>ErrorPage.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\BlafPagePicker.ascx.resx">
+      <DependentUpon>BlafPagePicker.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\BmBlafTable.ascx.resx">
+      <DependentUpon>BmBlafTable.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\DatePicker.ascx.resx">
+      <DependentUpon>DatePicker.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\DropDownListDatePicker.ascx.resx">
+      <DependentUpon>DropDownListDatePicker.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\DropDownListYearMonthPicker.ascx.resx">
+      <DependentUpon>DropDownListYearMonthPicker.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Footer.ascx.resx">
+      <DependentUpon>Footer.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Header.ascx.resx">
+      <DependentUpon>Header.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\HpFnPeriodPicker.ascx.resx">
+      <DependentUpon>HpFnPeriodPicker.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\HyperLinkAndLinkButton.ascx.resx">
+      <DependentUpon>HyperLinkAndLinkButton.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\HyperLinkButton.ascx.resx">
+      <DependentUpon>HyperLinkButton.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\LinkButton.ascx.resx">
+      <DependentUpon>LinkButton.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\MonthPicker.ascx.resx">
+      <DependentUpon>MonthPicker.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Navigation.ascx.resx">
+      <DependentUpon>Navigation.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SubHeader.ascx.resx">
+      <DependentUpon>SubHeader.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SubHeader2.ascx.resx">
+      <DependentUpon>SubHeader2.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SubSubHeader.ascx.resx">
+      <DependentUpon>SubSubHeader.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateMessage.aspx.resx">
+      <DependentUpon>UpdateMessage.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SystemMaintain\Role\" />
+    <Folder Include="SystemMaintain\User\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Stock 1.0\BusinessFacade\BusinessFacade.csproj">
+      <Project>{a2643c40-97c7-4bc5-a5cb-afbdf17eb184}</Project>
+      <Name>BusinessFacade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Stock 1.0\Common\Common.csproj">
+      <Project>{2af8d350-2e6c-4f87-98ac-3446d57d9888}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Stock 1.0\OracleDataAccess\DataAccess.csproj">
+      <Project>{be5c716f-24be-4ef5-a5f7-65af83446f20}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>4454</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:8099/StockWeb</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

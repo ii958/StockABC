@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AISTOCK_STOCK_GUDONGRENSHU_DATA" targetNamespace="http://tempuri.org/AISTOCK_STOCK_GUDONGRENSHU_DATA.xsd" xmlns:mstns="http://tempuri.org/AISTOCK_STOCK_GUDONGRENSHU_DATA.xsd" xmlns="http://tempuri.org/AISTOCK_STOCK_GUDONGRENSHU_DATA.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AISTOCK_STOCK_GUDONGRENSHU_DATA" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="AISTOCK_STOCK_GUDONGRENSHU_DATA" msprop:Generator_UserDSName="AISTOCK_STOCK_GUDONGRENSHU_DATA">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AISTOCK_STOCK_GUDONGRENSHU" msprop:Generator_TableClassName="AISTOCK_STOCK_GUDONGRENSHUDataTable" msprop:Generator_TableVarName="tableAISTOCK_STOCK_GUDONGRENSHU" msprop:Generator_TablePropName="AISTOCK_STOCK_GUDONGRENSHU" msprop:Generator_RowDeletingName="AISTOCK_STOCK_GUDONGRENSHURowDeleting" msprop:Generator_RowChangingName="AISTOCK_STOCK_GUDONGRENSHURowChanging" msprop:Generator_RowEvHandlerName="AISTOCK_STOCK_GUDONGRENSHURowChangeEventHandler" msprop:Generator_RowDeletedName="AISTOCK_STOCK_GUDONGRENSHURowDeleted" msprop:Generator_UserTableName="AISTOCK_STOCK_GUDONGRENSHU" msprop:Generator_RowChangedName="AISTOCK_STOCK_GUDONGRENSHURowChanged" msprop:Generator_RowEvArgName="AISTOCK_STOCK_GUDONGRENSHURowChangeEvent" msprop:Generator_RowClassName="AISTOCK_STOCK_GUDONGRENSHURow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOCK_CODE" msprop:Generator_ColumnVarNameInTable="columnSTOCK_CODE" msprop:Generator_ColumnPropNameInRow="STOCK_CODE" msprop:Generator_ColumnPropNameInTable="STOCK_CODEColumn" msprop:Generator_UserColumnName="STOCK_CODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DateIndex" msprop:Generator_ColumnVarNameInTable="columnDateIndex" msprop:Generator_ColumnPropNameInRow="DateIndex" msprop:Generator_ColumnPropNameInTable="DateIndexColumn" msprop:Generator_UserColumnName="DateIndex" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GuDongQuantity" msprop:Generator_ColumnVarNameInTable="columnGuDongQuantity" msprop:Generator_ColumnPropNameInRow="GuDongQuantity" msprop:Generator_ColumnPropNameInTable="GuDongQuantityColumn" msprop:Generator_UserColumnName="GuDongQuantity" type="xs:int" minOccurs="0" />
+              <xs:element name="Change" msprop:Generator_ColumnVarNameInTable="columnChange" msprop:Generator_ColumnPropNameInRow="Change" msprop:Generator_ColumnPropNameInTable="ChangeColumn" msprop:Generator_UserColumnName="Change" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AvgQuantity" msprop:Generator_ColumnVarNameInTable="columnAvgQuantity" msprop:Generator_ColumnPropNameInRow="AvgQuantity" msprop:Generator_ColumnPropNameInTable="AvgQuantityColumn" msprop:Generator_UserColumnName="AvgQuantity" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AvgChange" msprop:Generator_ColumnVarNameInTable="columnAvgChange" msprop:Generator_ColumnPropNameInRow="AvgChange" msprop:Generator_ColumnPropNameInTable="AvgChangeColumn" msprop:Generator_UserColumnName="AvgChange" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AvgIndustry" msprop:Generator_ColumnVarNameInTable="columnAvgIndustry" msprop:Generator_ColumnPropNameInRow="AvgIndustry" msprop:Generator_ColumnPropNameInTable="AvgIndustryColumn" msprop:Generator_UserColumnName="AvgIndustry" type="xs:decimal" minOccurs="0" />
+              <xs:element name="OrderNum" msprop:Generator_ColumnVarNameInTable="columnOrderNum" msprop:Generator_ColumnPropNameInRow="OrderNum" msprop:Generator_ColumnPropNameInTable="OrderNumColumn" msprop:Generator_UserColumnName="OrderNum" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

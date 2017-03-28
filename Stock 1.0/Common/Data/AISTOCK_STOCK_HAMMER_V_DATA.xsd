@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AISTOCK_STOCK_HAMMER_V_DATA" targetNamespace="http://tempuri.org/AISTOCK_STOCK_HAMMER_V_DATA.xsd" xmlns:mstns="http://tempuri.org/AISTOCK_STOCK_HAMMER_V_DATA.xsd" xmlns="http://tempuri.org/AISTOCK_STOCK_HAMMER_V_DATA.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AISTOCK_STOCK_HAMMER_V_DATA" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="AISTOCK_STOCK_HAMMER_V_DATA" msprop:Generator_UserDSName="AISTOCK_STOCK_HAMMER_V_DATA">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AISTOCK_STOCK_HAMMER_V" msprop:Generator_TableClassName="AISTOCK_STOCK_HAMMER_VDataTable" msprop:Generator_TableVarName="tableAISTOCK_STOCK_HAMMER_V" msprop:Generator_TablePropName="AISTOCK_STOCK_HAMMER_V" msprop:Generator_RowDeletingName="AISTOCK_STOCK_HAMMER_VRowDeleting" msprop:Generator_UserTableName="AISTOCK_STOCK_HAMMER_V" msprop:Generator_RowChangingName="AISTOCK_STOCK_HAMMER_VRowChanging" msprop:Generator_RowEvHandlerName="AISTOCK_STOCK_HAMMER_VRowChangeEventHandler" msprop:Generator_RowDeletedName="AISTOCK_STOCK_HAMMER_VRowDeleted" msprop:Generator_RowEvArgName="AISTOCK_STOCK_HAMMER_VRowChangeEvent" msprop:Generator_RowChangedName="AISTOCK_STOCK_HAMMER_VRowChanged" msprop:Generator_RowClassName="AISTOCK_STOCK_HAMMER_VRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOCK_CODE" msprop:Generator_ColumnVarNameInTable="columnSTOCK_CODE" msprop:Generator_ColumnPropNameInRow="STOCK_CODE" msprop:Generator_ColumnPropNameInTable="STOCK_CODEColumn" msprop:Generator_UserColumnName="STOCK_CODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOCK_NAME" msprop:Generator_ColumnVarNameInTable="columnSTOCK_NAME" msprop:Generator_ColumnPropNameInRow="STOCK_NAME" msprop:Generator_ColumnPropNameInTable="STOCK_NAMEColumn" msprop:Generator_UserColumnName="STOCK_NAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TODAY_BEGIN" msprop:Generator_ColumnVarNameInTable="columnTODAY_BEGIN" msprop:Generator_ColumnPropNameInRow="TODAY_BEGIN" msprop:Generator_ColumnPropNameInTable="TODAY_BEGINColumn" msprop:Generator_UserColumnName="TODAY_BEGIN" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TODAY_END" msprop:Generator_ColumnVarNameInTable="columnTODAY_END" msprop:Generator_ColumnPropNameInRow="TODAY_END" msprop:Generator_ColumnPropNameInTable="TODAY_ENDColumn" msprop:Generator_UserColumnName="TODAY_END" type="xs:decimal" minOccurs="0" />
+              <xs:element name="HAMMER_BEGIN" msprop:Generator_ColumnVarNameInTable="columnHAMMER_BEGIN" msprop:Generator_ColumnPropNameInRow="HAMMER_BEGIN" msprop:Generator_ColumnPropNameInTable="HAMMER_BEGINColumn" msprop:Generator_UserColumnName="HAMMER_BEGIN" type="xs:decimal" minOccurs="0" />
+              <xs:element name="HAMMER_END" msprop:Generator_ColumnVarNameInTable="columnHAMMER_END" msprop:Generator_ColumnPropNameInRow="HAMMER_END" msprop:Generator_ColumnPropNameInTable="HAMMER_ENDColumn" msprop:Generator_UserColumnName="HAMMER_END" type="xs:decimal" minOccurs="0" />
+              <xs:element name="HAMMER_MIN" msprop:Generator_ColumnVarNameInTable="columnHAMMER_MIN" msprop:Generator_ColumnPropNameInRow="HAMMER_MIN" msprop:Generator_ColumnPropNameInTable="HAMMER_MINColumn" msprop:Generator_UserColumnName="HAMMER_MIN" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DIFF" msprop:Generator_ColumnVarNameInTable="columnDIFF" msprop:Generator_ColumnPropNameInRow="DIFF" msprop:Generator_ColumnPropNameInTable="DIFFColumn" msprop:Generator_UserColumnName="DIFF" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DIFF_PERCENT" msprop:Generator_ColumnVarNameInTable="columnDIFF_PERCENT" msprop:Generator_ColumnPropNameInRow="DIFF_PERCENT" msprop:Generator_ColumnPropNameInTable="DIFF_PERCENTColumn" msprop:Generator_UserColumnName="DIFF_PERCENT" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

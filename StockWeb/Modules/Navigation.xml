@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<UserNavigation>	    
+	<Category Title="实时数据">		
+		<Item Title="股票查询">
+			<Page Class="AISRS.WebUI.DataCenter.StockQueryBrowse" URL="/DataCenter/StockQueryBrowse.aspx"/>
+		</Item>
+    <Item Title="导数">
+      <Page Class="AISRS.WebUI.DataCenter.StockImport" URL="/DataCenter/StockImport.aspx"/>
+    </Item>
+    <Item Title="均价计算">
+      <Page Class="AISRS.WebUI.DataCenter.StockAvgPrice" URL="/DataCenter/StockAvgPrice.aspx"/>
+    </Item>
+    <Item Title="历史数据查询">
+      <Page Class="AISRS.WebUI.DataCenter.StockHistoryBrowse" URL="/DataCenter/StockHistoryBrowse.aspx"/>
+    </Item>
+  </Category>
+  <Category Title="日常维护">
+    <Item Title="2013投资Schedule">
+      <Page Class="AISRS.WebUI.DailyMaintain.DailyReportBrowse" URL="/DailyMaintain/DailyReportBrowse.aspx"/>
+    </Item>
+  </Category>
+  <Category Title="指数分析">
+    <Item Title="常用技术分析指标">
+      <Page Class="AISRS.WebUI.Index.IndexAnalyseBrowse" URL="/Index/IndexAnalyseBrowse.aspx"/>
+    </Item>
+    <Item Title="RSI指标">
+      <Page Class="AISRS.WebUI.Index.RSIAnalyseBrowse" URL="/Index/RSIAnalyseBrowse.aspx"/>
+    </Item>
+    <Item Title="涨跌统计">
+      <Page Class="AISRS.WebUI.Index.StockStatsBrowse" URL="/Index/StockStatsBrowse.aspx"/>
+    </Item>
+    <Item Title="买入信号">
+      <Page Class="AISRS.WebUI.Index.StockBuyBrowse" URL="/Index/StockBuyBrowse.aspx"/>
+    </Item>
+    <Item Title="买入历史数据">
+      <Page Class="AISRS.WebUI.Index.StockBuyHistoryBrowse" URL="/Index/StockBuyHistoryBrowse.aspx"/>
+    </Item>
+  </Category>  
+</UserNavigation>

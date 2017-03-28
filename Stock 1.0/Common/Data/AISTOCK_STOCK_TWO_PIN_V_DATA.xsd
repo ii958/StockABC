@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AISTOCK_STOCK_TWO_PIN_V_DATA" targetNamespace="http://tempuri.org/AISTOCK_STOCK_TWO_PIN_V_DATA.xsd" xmlns:mstns="http://tempuri.org/AISTOCK_STOCK_TWO_PIN_V_DATA.xsd" xmlns="http://tempuri.org/AISTOCK_STOCK_TWO_PIN_V_DATA.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AISTOCK_STOCK_TWO_PIN_V_DATA" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="AISTOCK_STOCK_TWO_PIN_V_DATA" msprop:Generator_UserDSName="AISTOCK_STOCK_TWO_PIN_V_DATA">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AISTOCK_STOCK_TWO_PIN_V" msprop:Generator_TableClassName="AISTOCK_STOCK_TWO_PIN_VDataTable" msprop:Generator_TableVarName="tableAISTOCK_STOCK_TWO_PIN_V" msprop:Generator_TablePropName="AISTOCK_STOCK_TWO_PIN_V" msprop:Generator_RowDeletingName="AISTOCK_STOCK_TWO_PIN_VRowDeleting" msprop:Generator_UserTableName="AISTOCK_STOCK_TWO_PIN_V" msprop:Generator_RowChangingName="AISTOCK_STOCK_TWO_PIN_VRowChanging" msprop:Generator_RowEvHandlerName="AISTOCK_STOCK_TWO_PIN_VRowChangeEventHandler" msprop:Generator_RowDeletedName="AISTOCK_STOCK_TWO_PIN_VRowDeleted" msprop:Generator_RowEvArgName="AISTOCK_STOCK_TWO_PIN_VRowChangeEvent" msprop:Generator_RowChangedName="AISTOCK_STOCK_TWO_PIN_VRowChanged" msprop:Generator_RowClassName="AISTOCK_STOCK_TWO_PIN_VRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOCK_CODE" msprop:Generator_ColumnVarNameInTable="columnSTOCK_CODE" msprop:Generator_ColumnPropNameInRow="STOCK_CODE" msprop:Generator_ColumnPropNameInTable="STOCK_CODEColumn" msprop:Generator_UserColumnName="STOCK_CODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOCK_NAME" msprop:Generator_ColumnVarNameInTable="columnSTOCK_NAME" msprop:Generator_ColumnPropNameInRow="STOCK_NAME" msprop:Generator_ColumnPropNameInTable="STOCK_NAMEColumn" msprop:Generator_UserColumnName="STOCK_NAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YESTERDAY" msprop:Generator_ColumnVarNameInTable="columnYESTERDAY" msprop:Generator_ColumnPropNameInRow="YESTERDAY" msprop:Generator_ColumnPropNameInTable="YESTERDAYColumn" msprop:Generator_UserColumnName="YESTERDAY" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YESTERDAY_BEGIN" msprop:Generator_ColumnVarNameInTable="columnYESTERDAY_BEGIN" msprop:Generator_ColumnPropNameInRow="YESTERDAY_BEGIN" msprop:Generator_ColumnPropNameInTable="YESTERDAY_BEGINColumn" msprop:Generator_UserColumnName="YESTERDAY_BEGIN" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YESTERDAY_END" msprop:Generator_ColumnVarNameInTable="columnYESTERDAY_END" msprop:Generator_ColumnPropNameInRow="YESTERDAY_END" msprop:Generator_ColumnPropNameInTable="YESTERDAY_ENDColumn" msprop:Generator_UserColumnName="YESTERDAY_END" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YESTERDAY_MIN_PRICE" msprop:Generator_ColumnVarNameInTable="columnYESTERDAY_MIN_PRICE" msprop:Generator_ColumnPropNameInRow="YESTERDAY_MIN_PRICE" msprop:Generator_ColumnPropNameInTable="YESTERDAY_MIN_PRICEColumn" msprop:Generator_UserColumnName="YESTERDAY_MIN_PRICE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TODAY" msprop:Generator_ColumnVarNameInTable="columnTODAY" msprop:Generator_ColumnPropNameInRow="TODAY" msprop:Generator_ColumnPropNameInTable="TODAYColumn" msprop:Generator_UserColumnName="TODAY" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TODAY_BEGIN" msprop:Generator_ColumnVarNameInTable="columnTODAY_BEGIN" msprop:Generator_ColumnPropNameInRow="TODAY_BEGIN" msprop:Generator_ColumnPropNameInTable="TODAY_BEGINColumn" msprop:Generator_UserColumnName="TODAY_BEGIN" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TODAY_END" msprop:Generator_ColumnVarNameInTable="columnTODAY_END" msprop:Generator_ColumnPropNameInRow="TODAY_END" msprop:Generator_ColumnPropNameInTable="TODAY_ENDColumn" msprop:Generator_UserColumnName="TODAY_END" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TODAY_MIN_PRICE" msprop:Generator_ColumnVarNameInTable="columnTODAY_MIN_PRICE" msprop:Generator_ColumnPropNameInRow="TODAY_MIN_PRICE" msprop:Generator_ColumnPropNameInTable="TODAY_MIN_PRICEColumn" msprop:Generator_UserColumnName="TODAY_MIN_PRICE" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

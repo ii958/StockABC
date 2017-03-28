@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AISTOCK_STOCK_MORNING_STAR_V_DATA" targetNamespace="http://tempuri.org/AISTOCK_STOCK_MORNING_STAR_V_DATA.xsd" xmlns:mstns="http://tempuri.org/AISTOCK_STOCK_MORNING_STAR_V_DATA.xsd" xmlns="http://tempuri.org/AISTOCK_STOCK_MORNING_STAR_V_DATA.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AISTOCK_STOCK_MORNING_STAR_V_DATA" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="AISTOCK_STOCK_MORNING_STAR_V_DATA" msprop:Generator_UserDSName="AISTOCK_STOCK_MORNING_STAR_V_DATA">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AISTOCK_STOCK_MORNING_STAR_V" msprop:Generator_TableClassName="AISTOCK_STOCK_MORNING_STAR_VDataTable" msprop:Generator_TableVarName="tableAISTOCK_STOCK_MORNING_STAR_V" msprop:Generator_TablePropName="AISTOCK_STOCK_MORNING_STAR_V" msprop:Generator_RowDeletingName="AISTOCK_STOCK_MORNING_STAR_VRowDeleting" msprop:Generator_UserTableName="AISTOCK_STOCK_MORNING_STAR_V" msprop:Generator_RowChangingName="AISTOCK_STOCK_MORNING_STAR_VRowChanging" msprop:Generator_RowEvHandlerName="AISTOCK_STOCK_MORNING_STAR_VRowChangeEventHandler" msprop:Generator_RowDeletedName="AISTOCK_STOCK_MORNING_STAR_VRowDeleted" msprop:Generator_RowEvArgName="AISTOCK_STOCK_MORNING_STAR_VRowChangeEvent" msprop:Generator_RowChangedName="AISTOCK_STOCK_MORNING_STAR_VRowChanged" msprop:Generator_RowClassName="AISTOCK_STOCK_MORNING_STAR_VRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOCK_CODE" msprop:Generator_ColumnVarNameInTable="columnSTOCK_CODE" msprop:Generator_ColumnPropNameInRow="STOCK_CODE" msprop:Generator_ColumnPropNameInTable="STOCK_CODEColumn" msprop:Generator_UserColumnName="STOCK_CODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOCK_NAME" msprop:Generator_ColumnVarNameInTable="columnSTOCK_NAME" msprop:Generator_ColumnPropNameInRow="STOCK_NAME" msprop:Generator_ColumnPropNameInTable="STOCK_NAMEColumn" msprop:Generator_UserColumnName="STOCK_NAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ONE_BEGIN" msprop:Generator_ColumnVarNameInTable="columnONE_BEGIN" msprop:Generator_ColumnPropNameInRow="ONE_BEGIN" msprop:Generator_ColumnPropNameInTable="ONE_BEGINColumn" msprop:Generator_UserColumnName="ONE_BEGIN" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ONE_END" msprop:Generator_ColumnVarNameInTable="columnONE_END" msprop:Generator_ColumnPropNameInRow="ONE_END" msprop:Generator_ColumnPropNameInTable="ONE_ENDColumn" msprop:Generator_UserColumnName="ONE_END" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ONE_MIN_PRICE" msprop:Generator_ColumnVarNameInTable="columnONE_MIN_PRICE" msprop:Generator_ColumnPropNameInRow="ONE_MIN_PRICE" msprop:Generator_ColumnPropNameInTable="ONE_MIN_PRICEColumn" msprop:Generator_UserColumnName="ONE_MIN_PRICE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ONE_PERCENT" msprop:Generator_ColumnVarNameInTable="columnONE_PERCENT" msprop:Generator_ColumnPropNameInRow="ONE_PERCENT" msprop:Generator_ColumnPropNameInTable="ONE_PERCENTColumn" msprop:Generator_UserColumnName="ONE_PERCENT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TWO_MAX_PRICE" msprop:Generator_ColumnVarNameInTable="columnTWO_MAX_PRICE" msprop:Generator_ColumnPropNameInRow="TWO_MAX_PRICE" msprop:Generator_ColumnPropNameInTable="TWO_MAX_PRICEColumn" msprop:Generator_UserColumnName="TWO_MAX_PRICE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TWO_BEGIN" msprop:Generator_ColumnVarNameInTable="columnTWO_BEGIN" msprop:Generator_ColumnPropNameInRow="TWO_BEGIN" msprop:Generator_ColumnPropNameInTable="TWO_BEGINColumn" msprop:Generator_UserColumnName="TWO_BEGIN" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TWO_END" msprop:Generator_ColumnVarNameInTable="columnTWO_END" msprop:Generator_ColumnPropNameInRow="TWO_END" msprop:Generator_ColumnPropNameInTable="TWO_ENDColumn" msprop:Generator_UserColumnName="TWO_END" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TWO_MIN_PRICE" msprop:Generator_ColumnVarNameInTable="columnTWO_MIN_PRICE" msprop:Generator_ColumnPropNameInRow="TWO_MIN_PRICE" msprop:Generator_ColumnPropNameInTable="TWO_MIN_PRICEColumn" msprop:Generator_UserColumnName="TWO_MIN_PRICE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="THREE_BEGIN" msprop:Generator_ColumnVarNameInTable="columnTHREE_BEGIN" msprop:Generator_ColumnPropNameInRow="THREE_BEGIN" msprop:Generator_ColumnPropNameInTable="THREE_BEGINColumn" msprop:Generator_UserColumnName="THREE_BEGIN" type="xs:decimal" minOccurs="0" />
+              <xs:element name="THREE_END" msprop:Generator_ColumnVarNameInTable="columnTHREE_END" msprop:Generator_ColumnPropNameInRow="THREE_END" msprop:Generator_ColumnPropNameInTable="THREE_ENDColumn" msprop:Generator_UserColumnName="THREE_END" type="xs:decimal" minOccurs="0" />
+              <xs:element name="THREE_PERCENT" msprop:Generator_ColumnVarNameInTable="columnTHREE_PERCENT" msprop:Generator_ColumnPropNameInRow="THREE_PERCENT" msprop:Generator_ColumnPropNameInTable="THREE_PERCENTColumn" msprop:Generator_UserColumnName="THREE_PERCENT" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

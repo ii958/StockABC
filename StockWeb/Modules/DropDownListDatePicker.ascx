@@ -1,0 +1,2 @@
+<%@ Control Language="c#" AutoEventWireup="false" Codebehind="DropDownListDatePicker.ascx.cs" Inherits="AISRS.WebUI.Modules.DropDownListDatePicker" TargetSchema="http://schemas.microsoft.com/intellisense/ie5" %>
+<asp:DropDownList id="yearList" runat="server" Width="65px" Height="21px"></asp:DropDownList><asp:DropDownList id="monthList" runat="server" Width="44px" Height="21px"></asp:DropDownList><asp:DropDownList id="dayList" runat="server" Width="44px" Height="21px"></asp:DropDownList>
